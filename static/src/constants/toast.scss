@@ -1,0 +1,39 @@
+.toast{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 999999;
+    display: flex;
+    .toast-model{
+        margin: auto;
+        min-width: 200px;
+        min-height: 100px;
+        background-color: #fff;
+        border-radius: 8px;
+        z-index: 1000000;
+        .toast-header{
+            text-indent: 10px;
+            height: 30px;
+            line-height: 30px;
+            .close{
+                display: block;
+                float: right;
+                margin-right:10px;
+                width: 30px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                font-style: normal;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+        .toast-body{
+            display: flex;
+            padding: 10px;
+        }
+    }
+}
