@@ -7,7 +7,7 @@ import {BrowserRouter,Route, Link,Switch} from 'react-router-dom'
 import routes from './routes/'
 import reducer from './reducers/reducers'
 import Home from './views/Home'
-import '../style/normalize.scss'
+import './style/normalize.scss'
 
 const middleware = [ thunk ]
 

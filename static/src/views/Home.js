@@ -1,9 +1,6 @@
 import React,{Component} from 'react'
-import Banner from '../layouts/Banner.js'
-import Content from '../components/Home/Content.js'
-import IssuesList from '../components/Home/IssuesList.js'
-import Live from '../components/Home/Live.js'
-import Answer from '../components/Home/Answer.js'
+import ToastContainer from '../containers/constants/ToastContainer'
+import WriteAnsterBtnContainer from '../containers/btns/WriteAnsterBtnContainer'
 
 class Home extends Component{
     constructor(props){
@@ -12,17 +9,8 @@ class Home extends Component{
     render(){
         return(
             <div>
-                <Banner />
-                <Content />
-                <div className = "w center">
-                    <div className ="fl left-box">
-                        <Answer />
-                    </div>
-                    <div className="fr right-box">
-                        <IssuesList />
-                        <Live />
-                    </div>
-                </div>
+                <ToastContainer />
+                <WriteAnsterBtnContainer />
             </div>
         )
     }

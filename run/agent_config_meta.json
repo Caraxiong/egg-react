@@ -137,7 +137,10 @@
     "description": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
     "main": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
     "scripts": {
-      "dev": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
+      "dev": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "server": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "dev_static": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "build": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
     },
     "repository": {
       "type": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
@@ -151,11 +154,43 @@
     },
     "homepage": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
     "dependencies": {
+      "autoprefixer": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-core": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-plugin-react-transform": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-plugin-transform-class-properties": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-preset-es2015": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-preset-react": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "babel-preset-stage-0": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "css-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
       "egg": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
+      "egg-view-nunjucks": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "extract-text-webpack-plugin": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "html-webpack-plugin": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "json-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "node-sass": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "postcss-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-transform-hmr": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "redux-devtools": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "redux-devtools-dock-monitor": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "redux-devtools-log-monitor": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "sass-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "style-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "webpack": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "webpack-dev-server": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
+      "egg-bin": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "prop-types": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-dom": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-router": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-router-dom": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "react-router-redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "redux-thunk": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",
+      "whatwg-fetch": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js"
     }
   },
   "baseDir": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\config.default.js",

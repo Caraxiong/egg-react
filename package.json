@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "npm run server & npm run dev_static",
+    "server": "egg-bin dev",
+    "dev_static": "webpack-dev-server --inline --hot --watch --progress --config ./static/src/webpack.config.js",
+    "build": "webpack --config ./static/src/webpack.production.config.js --progress"
   },
   "repository": {
     "type": "git",
