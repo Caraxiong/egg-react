@@ -143,8 +143,8 @@
       "scripts": {
         "dev": "npm run server & npm run dev_static",
         "server": "egg-bin dev",
-        "dev_static": "webpack-dev-server --progress",
-        "build": "webpack --config ./static/build/webpack.production.config.js --progress"
+        "dev_static": "webpack-dev-server --inline --hot --watch --progress --config ./static/src/webpack.config.js",
+        "build": "webpack --config ./static/src/webpack.production.config.js --progress"
       },
       "repository": {
         "type": "git",
@@ -303,7 +303,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-onerror@1.5.0@egg-onerror",
       "version": "1.5.0"
     },
@@ -314,7 +314,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session",
       "version": "2.1.1"
     },
@@ -325,7 +325,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n",
       "version": "1.2.0"
     },
@@ -336,7 +336,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher",
       "version": "2.2.0"
     },
@@ -347,7 +347,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart",
       "version": "1.5.0"
     },
@@ -360,7 +360,7 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security",
       "version": "1.12.1"
     },
@@ -375,7 +375,7 @@
       "env": [
         "local"
       ],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development",
       "version": "1.3.1"
     },
@@ -386,7 +386,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-schedule@2.6.0@egg-schedule",
       "version": "2.6.0"
     },
@@ -399,7 +399,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator",
       "version": "2.2.3"
     },
@@ -410,7 +410,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static",
       "version": "1.4.1"
     },
@@ -423,7 +423,7 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp",
       "version": "1.2.1"
     },
@@ -434,7 +434,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.9.0@egg\\config\\plugin.js",
+      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
       "path": "E:\\demo\\egg-react\\node_modules\\_egg-view@1.1.2@egg-view",
       "version": "1.1.2"
     },
