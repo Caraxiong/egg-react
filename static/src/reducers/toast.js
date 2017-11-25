@@ -1,7 +1,7 @@
 import {
     SHOW_TOAST,
     HIDE_TOAST
-} from '../constants/ActionTypes'
+} from '../actions/ActionTypes'
 
 const initState = {
     bool: false,

@@ -8,6 +8,11 @@ import routes from './routes/'
 import reducer from './reducers/reducers'
 import Home from './views/Home'
 import './style/normalize.scss'
+//测试二维码案例
+// import QrCode from './components/egs/qr.js'
+// render(<QrCode />,document.getElementById('root'))
+import Select from './components/egs/select.js'
+render(<Select />,document.getElementById('root'))
 
 const middleware = [ thunk ]
 
@@ -24,6 +29,6 @@ init()
 let unsubscribe = store.subscribe(init)
 // Finally, we render a <Router> with some <Route>s.
 // It does all the fancy routing stuff for us.
-render(<Provider store={store}>
-            {routes}
-        </Provider>,document.getElementById('root'))
+// render(<Provider store={store}>
+//             {routes}
+//         </Provider>,document.getElementById('root'))

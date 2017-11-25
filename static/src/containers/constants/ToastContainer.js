@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { hideToastFun } from '../../actions/toastActions'
-import Toast from '../../constants/Toast'
+import Toast from '../../components/toast/Toast'
 
 const ToastContainer = ({ bool , toastText , hideToastFun }) => (
     <Toast bool = { bool } toastText = {toastText} onClick = {() => hideToastFun()} />
