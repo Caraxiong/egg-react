@@ -11,8 +11,8 @@ import './style/normalize.scss'
 //测试二维码案例
 // import QrCode from './components/egs/qr.js'
 // render(<QrCode />,document.getElementById('root'))
-import Select from './components/egs/select.js'
-render(<Select />,document.getElementById('root'))
+import ListApp from './components/egs/listApp.js'
+render(<ListApp />,document.getElementById('root'))
 
 const middleware = [ thunk ]
 
