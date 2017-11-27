@@ -11,7 +11,7 @@ class ListApp extends Component {
 	}
 	render() {
 		return (
-			<List list={[{text: 1},{text: 2}]} handleItemChange={this.handleItemChange}/>
+			<List list={[{text: 1, checked: true},{text: 2}]} handleItemChange={this.handleItemChange} />
 		)
 	}
 }

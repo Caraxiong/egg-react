@@ -18,7 +18,7 @@ class ListItem extends Component {
 class List extends Component {
 	static defaultProps = {
 		list: [],
-		handleItemChange: () => {},
+		// handleItemChange: () => {},
 	};
 	constructor(props) {
 		super(props);
@@ -47,8 +47,10 @@ class List extends Component {
 				<ul>
 					{
 						this.state.list.map((entry, index) => {
-							<ListItem key = {`list-${index}`} value={entry.text} 
-							checked={entry.checked} onChange = {this.onItemChange.bind(this, entry)}/>
+              return (
+                <ListItem key = {`list-${index}`} value={entry.text} 
+                checked={entry.checked} onChange = {this.onItemChange.bind(this, entry)}/>
+              )
 						})
 					}
 				</ul>
