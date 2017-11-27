@@ -1,5 +1,5 @@
 import React,{ Component } from 'react'
-import List from './list'
+import List from './kuajitongxin'
 
 class ListApp extends Component {
 	constructor(props) {
