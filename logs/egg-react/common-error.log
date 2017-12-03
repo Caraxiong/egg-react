@@ -1,0 +1,18 @@
+2017-12-03 12:40:41,874 ERROR 9804 nodejs.unhandledRejectionError: EISDIR: illegal operation on a directory, read
+    at Object.fs.readSync (fs.js:656:19)
+    at tryReadSync (fs.js:457:20)
+    at Object.fs.readFileSync (fs.js:494:19)
+    at NunjucksFileLoader.getSource (F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\node-loaders.js:73:26)
+    at NunjucksFileLoader.getSource (F:\github\egg-react\node_modules\.2.1.4@egg-view-nunjucks\lib\file_loader.js:26:26)
+    at F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\environment.js:264:41
+    at next (F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\environment.js:243:17)
+    at NunjucksEnvironment.render (F:\github\egg-react\node_modules\.3.0.1@nunjucks\src\environment.js:305:14)
+errno: -4068
+code: 'EISDIR'
+syscall: 'read'
+name: 'unhandledRejectionError'
+pid: 9804
+hostname: PC-20160424NIRE
+

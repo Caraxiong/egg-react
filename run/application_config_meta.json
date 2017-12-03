@@ -182,6 +182,7 @@
     },
     "devDependencies": {
       "egg-bin": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
+      "html-withimg-loader": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "prop-types": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "react": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "react-dom": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
@@ -191,6 +192,7 @@
       "react-router-redux": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "redux": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "redux-thunk": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
+      "url-loader": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js",
       "whatwg-fetch": "F:\\github\\egg-react\\node_modules\\.1.11.0@egg\\config\\config.default.js"
     }
   },

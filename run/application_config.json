@@ -218,6 +218,7 @@
       },
       "devDependencies": {
         "egg-bin": "^4.3.0",
+        "html-withimg-loader": "^0.1.16",
         "prop-types": "^15.5.10",
         "react": "^15.6.1",
         "react-dom": "^15.6.1",
@@ -227,6 +228,7 @@
         "react-router-redux": "^4.0.8",
         "redux": "^3.7.2",
         "redux-thunk": "^2.2.0",
+        "url-loader": "^0.6.2",
         "whatwg-fetch": "^2.0.3"
       }
     },
