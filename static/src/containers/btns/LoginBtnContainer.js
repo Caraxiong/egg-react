@@ -1,15 +1,15 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
-import { showToastFun } from '../../actions/toastActions'
+import { loginInFun } from '../../actions/userActions'
 import Btn from '../../components/common/Btn'
 
-const BtnContainer = ({ showToastFun }) => (
-    <Btn onClick = { () => showToastFun()} btnName={'写回答'} classes = {'btn btn-blue'}/>
+const BtnContainer = ({ loginInFun }) => (
+    <Btn onClick = { () => loginInFun()} btnName={'登录'} classes = {'btn btn-sign'}/>
 )
 
 BtnContainer.propTypes = {
-    showToastFun: PropTypes.func
+    loginInFun: PropTypes.func
 }
 
 const mapStateToProps = (state) => {
@@ -21,5 +21,5 @@ const mapStateToProps = (state) => {
 
 export default connect(
     mapStateToProps,
-    { showToastFun }
+    { loginInFun }
 )(BtnContainer)

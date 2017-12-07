@@ -1,5 +1,5 @@
 //组件的挂载和卸载
-import React, { Component, PropTypes } from 'react;
+import React, { Component, PropTypes } from 'react';
 
 class App extends Component {
 	static propTypes = {

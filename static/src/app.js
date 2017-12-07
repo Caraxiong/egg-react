@@ -23,8 +23,10 @@ import './style/normalize.scss'
 //测试二维码案例
 // import QrCode from './components/egs/qr.js'
 // render(<QrCode />,document.getElementById('root'))
-import ListApp from './components/egs/eventemitter/list.js'
-render(<ListApp />, document.getElementById('root'))
+
+//测试list checkbox
+// import ListApp from './components/egs/eventemitter/list.js'
+// render(<ListApp />, document.getElementById('root'))
 
 const middleware = [thunk]
 
@@ -39,8 +41,8 @@ const init = () => {
 }
 init()
 let unsubscribe = store.subscribe(init)
-	// Finally, we render a <Router> with some <Route>s.
-	// It does all the fancy routing stuff for us.
-	// render(<Provider store={store}>
-	//             {routes}
-	//         </Provider>,document.getElementById('root'))
+// Finally, we render a <Router> with some <Route>s.
+// It does all the fancy routing stuff for us.
+render(<Provider store={store}>
+            {routes}
+        </Provider>,document.getElementById('root'))
