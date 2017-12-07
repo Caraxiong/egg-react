@@ -14,8 +14,10 @@ BtnContainer.propTypes = {
 
 const mapStateToProps = (state) => {
     return {
-        bool: state.toast.bool,
-        toastText: state.toast.toastText
+        user: state.user.user,
+        status: state.user.status,
+        error: state.user.error,
+        loading: state.user.loading
     }
 }
 
