@@ -8,7 +8,7 @@ class Login extends Component{
     render(){
         return(
             <div className="account-box">
-                <form>
+                <form >
                     <div className = "account-form">
                         <InputNameContainer />
                         <InputPswContainer />
