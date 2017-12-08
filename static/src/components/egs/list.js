@@ -47,10 +47,10 @@ class List extends Component {
 				<ul>
 					{
 						this.state.list.map((entry, index) => {
-              return (
-                <ListItem key = {`list-${index}`} value={entry.text} 
-                checked={entry.checked} onChange = {this.onItemChange.bind(this, entry)}/>
-              )
+			              return (
+			                <ListItem key = {`list-${index}`} value={entry.text}
+			                checked={entry.checked} onChange = {this.onItemChange.bind(this, entry)}/>
+			              )
 						})
 					}
 				</ul>

@@ -2,10 +2,10 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { signUpFun } from '../../actions/userActions'
-import Btn from '../../components/common/Btn'
+import Btn from '../../components/common/Button'
 
 const BtnContainer = ({ signUpFun }) => (
-    <Btn onClick = { () => signUpFun()} btnName={'注册'} classes = {'btn btn-sign'}/>
+    <Btn type={'submit'} onClick = { () => signUpFun()} btnName={'注册'} classes = {'btn btn-sign'}/>
 )
 
 BtnContainer.propTypes = {

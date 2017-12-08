@@ -47,7 +47,7 @@ module.exports = {
     ],
     devServer: {
         contentBase: "./public",        //本地服务器所加载的页面所在的目录
-        port: "8080",       //设置默认监听端口，如果省略，默认为”8080“
+        port: "8081",       //设置默认监听端口，如果省略，默认为”8080“
         // colors:true,        //终端中输出结果为彩色
         historyApiFallback: true,       //不跳转  在开发单页应用时非常有用，它依赖于HTML5 history API，如果设置为true，所有的跳转将指向index.html
         inline: true        //实时刷新
