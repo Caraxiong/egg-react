@@ -28,6 +28,10 @@ import './style/normalize.scss'
 // import ListApp from './components/egs/eventemitter/list.js'
 // render(<ListApp />, document.getElementById('root'))
 
+// 测试tab
+import Tabs from './components/egs/tabs/Tabs.js'
+render(<Tabs />, document.getElementById('root'))
+
 const middleware = [thunk]
 
 
@@ -41,8 +45,8 @@ const init = () => {
 }
 init()
 let unsubscribe = store.subscribe(init)
-// Finally, we render a <Router> with some <Route>s.
-// It does all the fancy routing stuff for us.
-render(<Provider store={store}>
-            {routes}
-        </Provider>,document.getElementById('root'))
+	// Finally, we render a <Router> with some <Route>s.
+	// It does all the fancy routing stuff for us.
+	// render(<Provider store={store}>
+	//             {routes}
+	//         </Provider>,document.getElementById('root'))

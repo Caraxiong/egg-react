@@ -1,6 +1,7 @@
 import React, {
 	Component
 } from 'react'
+import classnames from 'classnames'
 import PropTypes from 'prop-types'
 class TabNav extends Component {
 	static propTypes = {
@@ -77,3 +78,5 @@ class TabNav extends Component {
 		);
 	}
 }
+
+export default TabNav

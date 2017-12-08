@@ -1,6 +1,7 @@
 import React, {
 	Component
 } from 'react'
+import classnames from 'classnames'
 import PropTypes from 'prop-types'
 
 class TabContent extends Component {
@@ -45,3 +46,5 @@ class TabContent extends Component {
 		);
 	}
 }
+
+export default TabContent

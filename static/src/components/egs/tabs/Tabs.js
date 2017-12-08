@@ -3,7 +3,8 @@ import React, {
 } from 'react'
 import classnames from 'classnames'
 import style from './common.scss'
-
+import TabContent from './TabContent'
+import TabNav from './TabNav'
 import PropTypes from 'prop-types'
 
 
@@ -120,3 +121,5 @@ class Tabs extends Component {
 		)
 	}
 }
+
+export default Tabs
