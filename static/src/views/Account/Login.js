@@ -1,7 +1,5 @@
 import React,{Component} from 'react'
-import InputNameContainer from '../../containers/account/InputNameContainer'
-import InputPswContainer from '../../containers/account/InputPswContainer'
-import LoginBtnContainer from '../../containers/btns/LoginBtnContainer'
+import LoginContainer from '../../containers/account/LoginContainer'
 import '../../style/common.scss'
 
 class Login extends Component{
@@ -10,10 +8,8 @@ class Login extends Component{
             <div className="account-box">
                 <form >
                     <div className = "account-form">
-                        <InputNameContainer />
-                        <InputPswContainer />
+                       <LoginContainer />
                     </div>
-                    <LoginBtnContainer />
                 </form>
             </div>
         )

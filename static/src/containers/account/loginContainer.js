@@ -1,4 +1,4 @@
-import LoginForm from '../../components/account/login.js'
+import LoginForm from '../../components/account/Login.js'
 import { connect } from 'react-redux'
 
 const mapStateToProps = ( dispatch ) => {
