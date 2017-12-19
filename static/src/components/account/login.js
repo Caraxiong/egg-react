@@ -40,16 +40,16 @@ class LoginForm extends Component {
 		const {asyncValidating, handleSubmit, submitting } = this.props
 		return (
 			<div className = "container">
-				<form onSubmit={ handleSubmit(validateAndSignInUser) }>
+				<form onSubmit={ handleSubmit(loginIn) }>
 					<Field
 						name="username"
 						type="text"
-						component={ renderField }
+						component={ input }
 						label="@username*" />
 					<Field
 						name="password"
 						type="password"
-						component={ renderField }
+						component={ input }
 						label="Password" />
 					<div>
 						<button
@@ -68,3 +68,8 @@ class LoginForm extends Component {
 		)
 	}
 }
+
+
+export default reduxForm({
+	form: 'login'  //a unique name for the form
+})(LoginForm)
