@@ -7,9 +7,6 @@ const Input = ({type, name, placeholder}) => (
     </div>
 )
 Input.propTypes = {
-    type: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    placeholder: PropTypes.string.isRequired
 }
 
 export default Input

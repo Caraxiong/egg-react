@@ -1,14 +1,19 @@
 import * as types from './ActionTypes'
 
-const loginIn = ( formValues ) => {
+const loginInFun = ( formValues ) => {
     // 需要发送请求，todo
     return {
         type: types.LOGIN_USER,
-        payload: formValues
+        payload: {
+            response: {
+                status: 200,
+                data: formValues
+            }
+        }
     }
 }
 
-const loginInSuccess = ( user ) => {
+const loginInSuccessFun = ( user ) => {
     // 需要发送请求，todo
     return {
         type: types.LOGIN_USER_SUCCESS,
@@ -16,7 +21,7 @@ const loginInSuccess = ( user ) => {
     }
 }
 
-const loginInFailure = ( error ) => {
+const loginInFailureFun = ( error ) => {
     // 需要发送请求，todo
     return {
         type: types.LOGIN_USER_FAILURE,
@@ -24,13 +29,13 @@ const loginInFailure = ( error ) => {
     }
 }
 
-const loginOut = () => {
+const loginOutFun = () => {
     return {
         type: types.LOGOUT_USER
     }
 }
 
-const signUp = ( formValues ) => {
+const signUpFun = ( formValues ) => {
     // 需要发送请求，todo
     return {
         type: types.SIGNUP_USER,
@@ -38,7 +43,7 @@ const signUp = ( formValues ) => {
     }
 }
 
-const signUpSuccess = ( user ) => {
+const signUpSuccessFun = ( user ) => {
     // 需要发送请求，todo
     return {
         type: types.SIGNUP_USER_SUCCESS,
@@ -46,7 +51,7 @@ const signUpSuccess = ( user ) => {
     }
 }
 
-const signUpFailure = ( error ) => {
+const signUpFailureFun = ( error ) => {
     // 需要发送请求，todo
     return {
         type: types.SIGNUP_USER_FAILURE,
@@ -54,30 +59,4 @@ const signUpFailure = ( error ) => {
     }
 }
 
-export const loginInFun = () => dispatch => {
-    dispatch(loginIn(formValues))
-}
-
-export const loginInSuccessFun = () => dispatch => {
-    dispatch(loginInSuccess(user))
-}
-
-export const loginInFailureFun = () => dispatch => {
-    dispatch(loginInFailure(error))
-}
-
-export const loginOutFun = () => dispatch => {
-    dispatch(loginOut())
-}
-
-export const signUpFun = () => dispatch => {
-    dispatch(signUp(formValues))
-}
-
-export const signUpSuccessFun = () => dispatch => {
-    dispatch(signUpSuccess(user))
-}
-
-export const signUpFailureFun = () => dispatch => {
-    dispatch(signUpFailure(error))
-}
+export { loginInFun, loginInSuccessFun, loginInFailureFun, signUpFun, signUpSuccessFun, signUpFailureFun}

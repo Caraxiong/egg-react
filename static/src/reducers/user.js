@@ -26,7 +26,7 @@ const global = (state = initState, action) => {
             }}
         case LOGIN_USER_SUCCESS:
             return { ...state, ...{
-                user: action.payload.user,
+                user: action.payload,
                 status: 'authenticated',
                 error: null,
                 loading: false
@@ -35,7 +35,7 @@ const global = (state = initState, action) => {
             return { ...state, ...{
                 user: null,
                 status: 'login',
-                error: action.payload.error,
+                error: action.payload,
                 loading: false
             }}
         case LOGOUT_USER:
@@ -54,7 +54,7 @@ const global = (state = initState, action) => {
             }}
         case SIGNUP_USER_SUCCESS:
             return { ...state, ...{
-                user: action.payload.user,
+                user: action.payload,
                 status: 'authenticated',
                 error: null,
                 loading: false
@@ -63,7 +63,7 @@ const global = (state = initState, action) => {
             return { ...state, ...{
                 user: null,
                 status: 'signup',
-                error: action.payload.error,
+                error: action.payload,
                 loading: false
             }}
         default:

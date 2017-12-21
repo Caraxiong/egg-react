@@ -6,17 +6,26 @@ import { reduxForm , Field, SubmissionError } from 'redux-form'
 import {
 	loginInFun, loginInSuccessFun, loginInFailureFun
 } from '../../actions/userActions'
+import Input from '../common/Input'
+import Btn from '../common/Button'
 
 const loginIn = (values, dispatch) => {
-	return dispatch(loginInFun(values))
-		.then((result) => {
-			if(result.payload.response && result.payload.response.status !== 200) {
-				dispatch(loginInFailureFun(result.payload.response.data))
-				throw new SubmissionError(result.payload.response.data);
-			}
-
-			dispatch(loginInSuccessFun(result.payload.data))
-		})
+	return new Promise((resolve, reject) => {
+		let response = dispatch(loginInFun(values))
+		// response.payload.then((result) => {
+		let result = response.payload
+		if(result.response && result.response.status !== 200) {
+			dispatch(loginInFailureFun(result.response.data))
+			// throw new SubmissionError(result.response.data);
+			reject(result.response.data)
+		}
+		dispatch(loginInSuccessFun(result.response.data))
+		resolve();
+		// }).catch( result => {
+		// 	dispatch(loginInFailureFun(result.response.data))
+		// 	reject(result.response.data)
+		// })
+	})
 }
 
 class LoginForm extends Component {
@@ -28,10 +37,11 @@ class LoginForm extends Component {
 	}
 	componentWillReceiveProps(nextProps) {
 		if(nextProps.user.status === 'authenticated' && nextProps.user.user && !nextProps.user.error) {
-			this.context.router.push('/');
+			console.log('componentWillReceiveProps')
+			this.context.router.history.push('/');
 		}
 
-		if(nextProps.user.status === 'signin' && !nextProps.user.user && nextProps.user.error && !this.props.user.error) {
+		if(nextProps.user.status === 'login' && !nextProps.user.user && nextProps.user.error && !this.props.user.error) {
 			alert(nextProps.user.error.message)
 		}
 	}
@@ -44,20 +54,15 @@ class LoginForm extends Component {
 					<Field
 						name="username"
 						type="text"
-						component={ input }
-						label="@username*" />
+						component={ Input }
+						placeholder="@username*" />
 					<Field
 						name="password"
 						type="password"
-						component={ input }
-						label="Password" />
+						component={ Input }
+						placeholder="Password" />
 					<div>
-						<button
-							type="submit"
-							className="btn btn-primary"
-							disabled={ submitting }>
-							提交
-						</button>
+						<Btn type={'submit'} btnName={'登录'} classes = {'btn btn-sign'} disabled={ submitting } />
 						<Link
 							to="/"
 							className="btn btn-error"

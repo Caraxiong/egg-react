@@ -1,9 +1,13 @@
 import LoginForm from '../../components/account/Login.js'
 import { connect } from 'react-redux'
 
-const mapStateToProps = ( dispatch ) => {
+const mapDispatchToProps = ( dispatch ) => {
     return {
-
+         resetMe: () =>{
+          //sign up is not reused, so we dont need to resetUserFields
+          //in our case, it will remove authenticated users
+           // dispatch(resetUserFields());
+          }
     }
 }
 
@@ -13,4 +17,4 @@ function mapStateToProps(state, ownProps) {
     }
 }
 
-export default connect(mapStateToProps, mapStateToProps)(LoginForm)
+export default connect(mapStateToProps, mapDispatchToProps)(LoginForm)

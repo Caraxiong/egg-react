@@ -6,11 +6,9 @@ class Login extends Component{
     render(){
         return(
             <div className="account-box">
-                <form >
-                    <div className = "account-form">
-                       <LoginContainer />
-                    </div>
-                </form>
+                <div className = "account-form">
+                   <LoginContainer />
+                </div>
             </div>
         )
     }
