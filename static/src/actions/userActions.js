@@ -39,7 +39,12 @@ const signUpFun = ( formValues ) => {
     // 需要发送请求，todo
     return {
         type: types.SIGNUP_USER,
-        payload: formValues
+        payload: {
+            response: {
+                status: 200,
+                data: formValues
+            }
+        }
     }
 }
 

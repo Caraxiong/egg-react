@@ -4,22 +4,22 @@ import {
 } from 'react-router-dom'
 import { reduxForm , Field, SubmissionError } from 'redux-form'
 import {
-	loginInFun, loginInSuccessFun, loginInFailureFun
+	signUpFun, signUpSuccessFun, signUpFailureFun
 } from '../../actions/userActions'
 import Input from '../common/Input'
 import Btn from '../common/Button'
 
-const loginIn = (values, dispatch) => {
+const signUp = (values, dispatch) => {
 	return new Promise((resolve, reject) => {
-		let response = dispatch(loginInFun(values))
+		let response = dispatch(signUpFun(values))
 		// response.payload.then((result) => {
 		let result = response.payload
 		if(result.response && result.response.status !== 200) {
-			dispatch(loginInFailureFun(result.response.data))
+			dispatch(signUpFailureFun(result.response.data))
 			// throw new SubmissionError(result.response.data);
 			reject(result.response.data)
 		}
-		dispatch(loginInSuccessFun(result.response.data))
+		dispatch(signUpSuccessFun(result.response.data))
 		resolve();
 		// }).catch( result => {
 		// 	dispatch(loginInFailureFun(result.response.data))
@@ -28,7 +28,7 @@ const loginIn = (values, dispatch) => {
 	})
 }
 
-class LoginForm extends Component {
+class RegisterForm extends Component {
 	static contextTypes = {
 		router: PropTypes.object
 	}
@@ -40,7 +40,7 @@ class LoginForm extends Component {
 			this.context.router.history.push('/');
 		}
 
-		if(nextProps.user.status === 'login' && !nextProps.user.user && nextProps.user.error && !this.props.user.error) {
+		if(nextProps.user.status === 'signup' && !nextProps.user.user && nextProps.user.error && !this.props.user.error) {
 			alert(nextProps.user.error.message)
 		}
 	}
@@ -49,7 +49,7 @@ class LoginForm extends Component {
 		const {asyncValidating, handleSubmit, submitting } = this.props
 		return (
 			<div className = "container">
-				<form onSubmit={ handleSubmit(loginIn) }>
+				<form onSubmit={ handleSubmit(signUp) }>
 					<Field
 						name="username"
 						type="text"
@@ -60,8 +60,13 @@ class LoginForm extends Component {
 						type="password"
 						component={ Input }
 						placeholder="Password" />
+					<Field
+						name="password"
+						type="password"
+						component={ Input }
+						placeholder="Sure Password" />
 					<div>
-						<Btn type={'submit'} btnName={'登录'} classes = {'btn btn-sign'} disabled={ submitting }/>
+						<Btn type={'submit'} btnName={'注册'} classes = {'btn btn-sign'} disabled={ submitting } />
 						<Link
 							to="/"
 							className="btn btn-error"
@@ -75,5 +80,5 @@ class LoginForm extends Component {
 
 
 export default reduxForm({
-	form: 'login'  //a unique name for the form
-})(LoginForm)
+	form: 'register'  //a unique name for the form
+})(RegisterForm)

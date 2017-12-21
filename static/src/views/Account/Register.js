@@ -1,20 +1,13 @@
 import React,{Component} from 'react'
-import InputNameContainer from '../../containers/account/InputNameContainer'
-import InputPswContainer from '../../containers/account/InputPswContainer'
-import RegisterBtnContainer from '../../containers/btns/RegisterBtnContainer'
+import RegisterContainer from '../../containers/account/RegisterContainer'
 
 class Register extends Component{
     render(){
         return(
             <div className="account-box">
-                <form>
-                    <div className = "account-form">
-                        <InputNameContainer />
-                        <InputPswContainer />
-                        <InputPswContainer />
-                    </div>
-                    <RegisterBtnContainer />
-                </form>
+                <div className = "account-form">
+                    <RegisterContainer />
+                </div>
             </div>
         )
     }
