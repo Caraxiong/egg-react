@@ -51,6 +51,7 @@
   "devDependencies": {
     "egg-bin": "^4.3.0",
     "html-withimg-loader": "^0.1.16",
+    "postcss-pxtorem": "^4.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

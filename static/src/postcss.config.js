@@ -1,5 +1,8 @@
 module.exports = {
-  plugins: [
-    require('autoprefixer')
-  ]
+	plugins: [
+		require('autoprefixer'),
+		require('postcss-pxtorem')({
+			rootValue: 75
+		})
+	]
 }
