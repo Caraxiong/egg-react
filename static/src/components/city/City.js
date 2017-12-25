@@ -47,7 +47,22 @@ class City extends Component {
 		return (
 			<div id="city" className="fadeInDown" onClick={this.getCityItem}
 			style={{display: this.state.show ? 'block' : 'none'}}>
-				<span className="close-city" onclick={this.closeCity}></span>
+				<span className="close-city" onclick={this.closeCity}>×</span>
+				<ListView.IndexedList
+					dataSource={this.state.dataSource}
+					renderHeader={() => <span>城市选择</span>}
+					renderSectionHeader={(sectionData) => (<div className='ih'>{sectionData}</div>)}
+					renderRow={(rowData) => (<Item>{rowData</Item>)}
+					className="fortest"
+					style={{
+						height: '100%',
+						overflow: 'auto',
+					}}
+					quickSearchBarStyle={{
+						position: 'absolute',
+						top: 150,
+					}}
+				/>
 			</div>
 		)
 	}
