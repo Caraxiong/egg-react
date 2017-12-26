@@ -41,8 +41,32 @@ const {
 
 class City extends Component {
 	getInitialState() {
+    // const get
+  }
+  
+  componentWillReceiveProps (nextProps) {
+    if(nextProps.city.show) {
+      this.setState({
+        show: true
+      })
+    }else{
+      this.setState({
+        show: false
+      })
+    }
+  }
 
-	}
+  getCityItem (event) {
+    let ele = event.target
+    if (ele.className === 'am-list-content' && !/div/.test(ele.innerHTML)) {
+      this.props.updateCity(ele.innerHTML);
+    }
+  }
+
+  closeCity () {
+    this.props.closeCity();
+  }
+
 	render() {
 		return (
 			<div id="city" className="fadeInDown" onClick={this.getCityItem}
@@ -52,7 +76,7 @@ class City extends Component {
 					dataSource={this.state.dataSource}
 					renderHeader={() => <span>城市选择</span>}
 					renderSectionHeader={(sectionData) => (<div className='ih'>{sectionData}</div>)}
-					renderRow={(rowData) => (<Item>{rowData</Item>)}
+					renderRow={(rowData) => (<Item>{rowData}</Item>)}
 					className="fortest"
 					style={{
 						height: '100%',
@@ -67,3 +91,5 @@ class City extends Component {
 		)
 	}
 }
+
+export default City
