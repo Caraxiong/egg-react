@@ -1,8 +1,14 @@
-import { connect } from 'react-redux';
-import { showCity } from '../../actions/CityActions'
+import {
+	connect
+} from 'react-redux';
+import {
+	Header
+} from './Header'
+import {
+	showCity
+} from '../../actions/CityActions'
 
 const mapDispatchtoProps = {
-  showCity
+	showCity
 }
-
-const 
+export default connect(mapDispatchtoProps)(Header)

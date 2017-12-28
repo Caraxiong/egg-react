@@ -1,26 +1,26 @@
-import React, { Component } from 'react' 
+import React, {
+  Component
+} from 'react'
 import classnames from 'classnames'
-import  './Header.scss'
+import './Header.scss'
 
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      hot: true
-    }
+    this.state = {}
   }
 
-  componentDidMount () {
+  componentDidMount() {
 
   }
 
-  showCity () {
+  showCity() {
     this.props.showCity()
   }
 
   render() {
     return (
-        <header className="h-header">
+      <header className="h-header">
           <div className="l" onClick={this.showCity.bind(this)}>
             <span>{this.props.city.name}</span>
             <span></span>

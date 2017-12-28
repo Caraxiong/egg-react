@@ -1,14 +1,16 @@
-import React,{Component} from 'react'
+import React, {
+    Component
+} from 'react'
 import ToastContainer from '../containers/constants/ToastContainer'
 import WriteAnsterBtnContainer from '../containers/btns/WriteAnsterBtnContainer'
-import Header from '../components/header/Header'
+import Header from '../components/header/HeaderContainer'
 
-class Home extends Component{
-    constructor(props){
+class Home extends Component {
+    constructor(props) {
         super(props)
     }
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 <Header />
                 <ToastContainer />
