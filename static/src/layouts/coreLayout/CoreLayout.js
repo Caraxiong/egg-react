@@ -2,6 +2,7 @@ import React, {
 	PropTypes
 } from 'react'
 import Footer from '../../components/footer/Footer'
+import City from '../../components/city/City'
 
 
 const CoreLayout = ({
@@ -12,6 +13,7 @@ const CoreLayout = ({
 		<div className='cl-viewport'>
 			{children}
 		</div>
+    <City />
 		<Footer/>
 	</div>
 )
