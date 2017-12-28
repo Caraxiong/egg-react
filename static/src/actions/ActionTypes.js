@@ -29,3 +29,6 @@ export const RECEIVE_DATA = 'RECEIVE_DATA';
 export const PUSHLOADSTACK = 'PUSHLOADSTACK';
 export const POPLOADSTACK = 'POPLOADSTACK';
 
+//location
+export const LOCATION_CHANGE = 'LOCATION_CHANGE'
+
