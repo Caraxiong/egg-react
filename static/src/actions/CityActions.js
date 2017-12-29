@@ -11,13 +11,13 @@ const updateCity = ( city ) => {
 
 const closeCity = () => {
   return {
-    type: types.SHOWCITY
+    type: types.CLOSECITY
   }
 }
 
 const showCity = () => {
   return {
-    type: types.CLOSECITY
+    type: types.SHOWCITY
   }
 }
 

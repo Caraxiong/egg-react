@@ -1,14 +1,22 @@
-import {
-	connect
-} from 'react-redux';
-import {
-	Header
-} from './Header'
+import { connect } from 'react-redux';
+import Header from './Header'
+import { requestData,receiveData } from '../../reducers/request';
 import {
 	showCity
 } from '../../actions/CityActions'
 
 const mapDispatchtoProps = {
+  requestData,
+  receiveData,
 	showCity
 }
-export default connect(mapDispatchtoProps)(Header)
+
+const mapStateToProps = (state) => ({
+  home: state.home,
+  request: state.request,
+  city: state.city
+})
+
+const HeaderContainer = connect(mapStateToProps, mapDispatchtoProps)(Header)
+
+export default HeaderContainer

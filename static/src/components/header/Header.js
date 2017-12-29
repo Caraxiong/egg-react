@@ -1,5 +1,6 @@
 import React, {
-  Component
+  Component,
+  PropTypes
 } from 'react'
 import classnames from 'classnames'
 import './Header.scss'
@@ -7,7 +8,6 @@ import './Header.scss'
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
   }
 
   componentDidMount() {
@@ -48,8 +48,8 @@ class Header extends Component {
 
 Header.propTypes = {
   // switchList: React.PropTypes.func.isRequired,
-  showCity: React.PropTypes.func.isRequired,
-  city: React.PropTypes.object.isRequired
+  showCity: PropTypes.func.isRequired,
+  city: PropTypes.object.isRequired
 }
 
 export default Header

@@ -3,6 +3,7 @@ import React, {
 } from 'react'
 import Footer from '../../components/footer/Footer'
 import City from '../../components/city/CityContainer'
+import HeaderContainer from '../../components/header/HeaderContainer'
 
 
 const CoreLayout = ({
@@ -13,7 +14,8 @@ const CoreLayout = ({
 		<div className='cl-viewport'>
 			{children}
 		</div>
-    	<City/>
+    <HeaderContainer />
+    <City/>
 		<Footer/>
 	</div>
 )

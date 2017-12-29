@@ -22,6 +22,7 @@ const popLoadStack = () => {
 }
 
 export const requestData = url => (dispatch, getState) => {
+  console.log(getState())
   if(!getState().request.loadStack.length) {
     Toast.loading('加载中……',1000000)
   }

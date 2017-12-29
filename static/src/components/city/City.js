@@ -99,6 +99,7 @@ class City extends Component {
   }
 
 	render() {
+    console.log('this.props',this.props)
 		return (
 			<div id="city" className="fadeInDown" onClick={this.getCityItem}
 			style={{display: this.state.show ? 'block' : 'none'}}>

@@ -9,10 +9,10 @@ const mapDispatchtoProps = {
   closeCity
 }
 
-const mapStateToProps = ( state) => ({
+const mapStateToProps = ( state ) => ({
   home: state.home,
   request: state.request,
   city: state.city
 })
 
-export default connect(mapDispatchtoProps, mapStateToProps)(City)
+export default connect(mapStateToProps, mapDispatchtoProps)(City)

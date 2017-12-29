@@ -3,7 +3,6 @@ import React, {
 } from 'react'
 import ToastContainer from '../containers/constants/ToastContainer'
 import WriteAnsterBtnContainer from '../containers/btns/WriteAnsterBtnContainer'
-import Header from '../components/header/HeaderContainer'
 
 class Home extends Component {
     constructor(props) {
@@ -12,7 +11,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Header />
                 <ToastContainer />
                 <WriteAnsterBtnContainer />
             </div>
