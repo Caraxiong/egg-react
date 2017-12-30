@@ -41,12 +41,12 @@ const store = createStore(
 )
 
 const init = () => {
-	// console.log(store.getState())
+	console.log(store.getState())
 }
 init()
 let unsubscribe = store.subscribe(init)
-	// Finally, we render a <Router> with some <Route>s.
-	// It does all the fancy routing stuff for us.
+// Finally, we render a <Router> with some <Route>s.
+// It does all the fancy routing stuff for us.
 render(<Provider store={store}>
             {routes}
-        </Provider>,document.getElementById('root'))
+        </Provider>, document.getElementById('root'))

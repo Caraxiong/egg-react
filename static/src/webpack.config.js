@@ -23,7 +23,7 @@ module.exports = {
             loader: 'style-loader!css-loader!postcss-loader!sass-loader'
         }, {
             test: /\.(png|jpg|svg)$/, //通过 name 字段来指定图片打包的目录与文件名
-            loader: 'url-loader?limit=8192&name=imgs/[hash:8].[name].[ext]'
+            loader: 'url-loader?limit=8192&name=[path][name].[ext]&outputPath=img/&publicPath=output/'
         }, {
             test: /\.html$/, //在 bundle.js 中引用 html 文件，import '../index.html';这样 html 文件中的图片就可以被打包进 bundle 文件夹里了。
             loader: 'html-withimg-loader'

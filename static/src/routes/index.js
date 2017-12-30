@@ -1,25 +1,25 @@
 import React from 'react'
 import {
-	BrowserRouter,
-	Route,
-	Link,
-	Switch
+    BrowserRouter,
+    Route,
+    Link,
+    Switch
 } from 'react-router-dom'
 
 import Home from '../views/Home'
 import Login from '../views/Account/Login'
 import Register from '../views/Account/Register'
 import CoreLayout from '../layouts/coreLayout/CoreLayout'
+import PageNoFound from '../components/error/404/PageNoFound'
 
 const routes = (
-	<BrowserRouter>
+    <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={CoreLayout}/>
             <Route path="/register" component={Register}/>
             <Route path="/login" component={Login}/>
-            <Route path="/core" component={CoreLayout}/>
-            <Route path="/core/home" component={Home}/>
-        </Switch>
+            <Route component={PageNoFound} />
+        </Switch> 
     </BrowserRouter>
 )
 export default routes

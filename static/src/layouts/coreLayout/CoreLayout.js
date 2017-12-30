@@ -9,16 +9,18 @@ import HeaderContainer from '../../components/header/HeaderContainer'
 const CoreLayout = ({
 	children,
 	location
-}) => (
-	<div className='container tc'>
+}) => {
+	return (
+		<div className='container tc'>
 		<div className='cl-viewport'>
 			{children}
 		</div>
     <HeaderContainer />
     <City/>
-		<Footer/>
+	<Footer { ...location } />
 	</div>
-)
+	)
+}
 
 // CoreLayout.propTypes = {
 // 	children: PropTypes.element.isRequired

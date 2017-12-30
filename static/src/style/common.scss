@@ -1,3 +1,7 @@
+@import './base.scss';
+@import './normalize.scss';
+@import '~antd-mobile/lib/style/index.css';
+
 a{text-decoration:none;}
 .w{width: 1200px;}
 .flex{display: flex;}

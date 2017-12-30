@@ -19,28 +19,17 @@ class Header extends Component {
   }
 
   render() {
+    const props = this.props;
+    console.log('Header',props);
     return (
       <header className="h-header">
           <div className="l" onClick={this.showCity.bind(this)}>
             <span>{this.props.city.name}</span>
             <span></span>
           </div>
-          {/* <div className="r sel-list rel" onClick={this.switchList.bind(this)}>
-            <div className={classnames({
-              'list-action':this.state.hot
-            })} data-list="hot">
-              正在热映
-            </div>
-            <div className={classnames({
-              'list-action':this.state.hot
-            })} data-list="coming">
-              即将上映
-            </div>
-            <span className={classnames({
-              'abs': true,
-              'col': !this.state.hot
-            })}></span>
-          </div> */}
+          <div className="r sel-list rel">
+            welcome!
+          </div>
         </header>
     )
   }
