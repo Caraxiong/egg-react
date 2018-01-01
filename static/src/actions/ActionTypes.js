@@ -32,3 +32,6 @@ export const POPLOADSTACK = 'POPLOADSTACK';
 //location
 export const LOCATION_CHANGE = 'LOCATION_CHANGE'
 
+//列表页
+export const UPDATEAREA = 'UPDATEAREA'
+export const GETAREADATA = 'GETAREADATA'
