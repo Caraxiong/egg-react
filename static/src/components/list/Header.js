@@ -17,7 +17,7 @@ class Header extends Component {
         }
     }
     componentWillMount() {
-        this.getAreaData(this.props.city.name)
+      this.getAreaData(this.props.city.name)
     }
     componentWillReceiveProps(nextProps) {
         if (this.props.city.name != nextProps.city.name) {
@@ -29,6 +29,7 @@ class Header extends Component {
     getAreaData(cityName) {
         let cityStr = this.matchCityStr(cityName)
         this.props.requestData(`/movie/cinema/?city=${cityStr}`).then((data) => {
+          console.log('Header', data)
             let regionOrder = data.data.data.returnValue.regionOrder;
             let regionCinemas = data.data.data.returnValue.regionCinemas;
             let allArea = [];

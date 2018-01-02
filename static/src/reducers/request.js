@@ -1,7 +1,4 @@
 import {
-  Toast
-} from 'antd-mobile'
-import {
   RECEIVE_DATA,
   PUSHLOADSTACK,
   POPLOADSTACK
@@ -9,18 +6,21 @@ import {
 
 const ACTION_HANDLERS = {
   [RECEIVE_DATA]: (state, action) => {
-    return ({ ...state,
+    return ({ 
+      ...state,
       json: action.payload
     })
   },
   [PUSHLOADSTACK]: (state, action) => {
-    state.loadStack.push(1)
-    return { ...state
+    state.loadStack.push(1);
+    return { 
+      ...state
     }
   },
   [POPLOADSTACK]: (state, action) => {
     state.loadStack.pop()
-    return { ...state
+    return { 
+      ...state
     }
   }
 }

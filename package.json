@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "npm run server & npm run dev_static",
     "server": "egg-bin dev",
-    "dev_static": "webpack-dev-server --inline --hot --watch --progress --config ./static/src/webpack.config.js",
-    "build": "webpack --config ./static/src/webpack.production.config.js --progress"
+    "dev_static": "webpack-dev-server --inline --hot --watch --progress --config ./static/build/webpack.dev.config.js",
+    "build": "webpack --config ./static/build/webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -64,6 +64,8 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1",
     "whatwg-fetch": "^2.0.3"
   }
 }

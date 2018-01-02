@@ -1,5 +1,7 @@
 import * as types from './ActionTypes'
-
+import {
+  Toast
+} from 'antd-mobile'
 const receiveData = (json) => {
   return {
     type:types.RECEIVE_DATA,
