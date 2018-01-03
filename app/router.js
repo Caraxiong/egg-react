@@ -1,4 +1,4 @@
 module.exports = app => {
-    app.get('/', app.controller.home.index)
-    app.get('/movie/cinema', app.controller.list.get)
+    const { router, controller } = app;
+    router.get('/movie/cinema/:cityStr', controller.list.list.getList)
 }

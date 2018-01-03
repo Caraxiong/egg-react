@@ -155,6 +155,7 @@
     },
     "homepage": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
     "dependencies": {
+      "antd-mobile": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "autoprefixer": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "babel-core": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "babel-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
@@ -168,6 +169,7 @@
       "egg": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "extract-text-webpack-plugin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+      "file-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "html-webpack-plugin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "json-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "node-sass": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
@@ -185,6 +187,7 @@
     "devDependencies": {
       "egg-bin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "html-withimg-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+      "postcss-pxtorem": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "prop-types": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "react": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "react-dom": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
@@ -195,6 +198,8 @@
       "redux": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "redux-thunk": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "url-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+      "webpack": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+      "webpack-merge": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
       "whatwg-fetch": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
     }
   },

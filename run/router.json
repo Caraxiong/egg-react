@@ -5,11 +5,22 @@
       "HEAD",
       "GET"
     ],
-    "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "paramNames": [
+      {
+        "name": "cityStr",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/movie/cinema/:cityStr",
+    "regexp": "/^\\/movie\\/cinema\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
-      "F:\\github\\egg-react\\app\\controller\\home.js#HomeController.index()"
+      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getList()"
     ]
   }
 ]
