@@ -1,15 +1,15 @@
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
-const entryPuth = path.resolve(__dirname,'../src/app.js')
-const outPuth = path.resolve(__dirname,'../src/public')
+const entryPath = path.resolve(__dirname,'../src/app.js')
+const outPath = path.resolve(__dirname,'../src/public')
 
 // const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry: entryPuth, //已多次提及的唯一入口文件
+    entry: entryPath, //已多次提及的唯一入口文件
     output: {
-        path: outPuth, //打包后的文件存放的地方
+        path: outPath, //打包后的文件存放的地方
         filename: "bundle.js", //打包后输出文件的文件名
         publicPath: './' //资源的发布地址
     },
