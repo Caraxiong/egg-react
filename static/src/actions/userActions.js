@@ -1,6 +1,7 @@
 import * as types from './ActionTypes'
 
 const loginInFun = ( formValues ) => {
+    console.log(formValues)
     // 需要发送请求，todo
     return {
         type: types.LOGIN_USER,

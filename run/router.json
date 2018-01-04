@@ -22,5 +22,29 @@
     "stack": [
       "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getList()"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/cinema/detail/:id",
+    "regexp": "/^\\/cinema\\/detail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getDetail()"
+    ]
   }
 ]

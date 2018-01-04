@@ -1,0 +1,65 @@
+2018-01-04 23:11:33,672 ERROR 14004 nodejs.ReferenceError: promise is not defined
+    at Promise (F:\github\egg-react\app\utils\readFile.js:18:9)
+    at new Promise (<anonymous>)
+    at readFile (F:\github\egg-react\app\utils\readFile.js:4:19)
+    at ListService.getList (F:\github\egg-react\app\service\list\list.js:6:28)
+    at ListController.getList (F:\github\egg-react\app\controller\list\list.js:6:46)
+    at callController (F:\github\egg-react\node_modules\.3.20.2@egg-core\lib\loader\mixin\controller.js:125:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (F:\github\egg-react\node_modules\.4.6.0@co\index.js:65:19)
+    at F:\github\egg-react\node_modules\.4.6.0@co\index.js:54:5
+    at new Promise (<anonymous>)
+
+pid: 14004
+hostname: PC-20160424NIRE
+
+2018-01-04 23:12:13,363 ERROR 7004 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 7004
+hostname: PC-20160424NIRE
+
+2018-01-04 23:20:58,756 ERROR 2144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2144
+hostname: PC-20160424NIRE
+
+2018-01-04 23:21:01,259 ERROR 2144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2144
+hostname: PC-20160424NIRE
+
+2018-01-04 23:21:01,336 ERROR 2144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2144
+hostname: PC-20160424NIRE
+
+2018-01-04 23:21:19,768 ERROR 2144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2144
+hostname: PC-20160424NIRE
+

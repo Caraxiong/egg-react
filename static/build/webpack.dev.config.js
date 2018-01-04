@@ -5,13 +5,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 const indexPath = path.resolve(__dirname,'../src/index.html')
 const entryPath = path.resolve(__dirname,'../src/app.js')
-const outPath = path.resolve(__dirname,'../src/public')
+const outPath = path.resolve(__dirname,'./../../app/view/public')
 
 module.exports = merge({
   entry: entryPath, //已多次提及的唯一入口文件
   output: {
       path: outPath, //打包后的文件存放的地方
-      filename: "bundle.js", //打包后输出文件的文件名
+      filename: 'public/js/bundle.js', //打包后输出文件的文件名
       publicPath: '/' //资源的发布地址
     },
     module: {

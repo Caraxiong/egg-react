@@ -4,7 +4,10 @@ const readFile = require('../../utils/readFile');
 class ListService extends Service {
     async getList(cityStr) {
         const list = await readFile('cinema', cityStr);
-        console.log('Service',list)
+        return list
+    }
+    async getDetail(id) {
+        const list = await readFile('cinema', id);
         return list
     }
 }
