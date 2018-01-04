@@ -2,6 +2,9 @@ import React, {
   Component,
   PropTypes
 } from 'react'
+import {
+  loginOutFun
+} from '../../actions/userActions'
 import classnames from 'classnames'
 import './Header.scss'
 
@@ -28,7 +31,7 @@ class Header extends Component {
             <span></span>
           </div>
           <div className="r sel-list rel">
-            welcome!
+            welcome!<button onClick={ loginOutFun }>Sign out</button>
           </div>
         </header>
     )

@@ -8,13 +8,14 @@ import {
 const mapDispatchtoProps = {
   requestData,
   receiveData,
-	showCity
+  showCity
 }
 
 const mapStateToProps = (state) => ({
   home: state.home,
   request: state.request,
-  city: state.city
+  city: state.city,
+  user: state.user
 })
 
 const HeaderContainer = connect(mapStateToProps, mapDispatchtoProps)(Header)

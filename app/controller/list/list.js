@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Controller = require('egg').Controller;
 class ListController extends Controller {
   async getList() {
@@ -9,3 +10,5 @@ class ListController extends Controller {
   }
 }
 module.exports = ListController
+=======
+>>>>>>> 456c975f656ddb338f7c3bfb906d1666ca72519d

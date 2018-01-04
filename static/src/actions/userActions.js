@@ -29,7 +29,7 @@ const loginInFailureFun = ( error ) => {
     }
 }
 
-const loginOutFun = () => {
+const loginOut = () => {
     return {
         type: types.LOGOUT_USER
     }
@@ -65,3 +65,7 @@ const signUpFailureFun = ( error ) => {
 }
 
 export { loginInFun, loginInSuccessFun, loginInFailureFun, signUpFun, signUpSuccessFun, signUpFailureFun}
+
+export const loginOutFun = () => dispatch => {
+  dispatch(loginOut())
+}
