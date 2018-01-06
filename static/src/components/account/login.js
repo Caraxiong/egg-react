@@ -10,7 +10,6 @@ import Input from '../common/Input'
 import Btn from '../common/Button'
 
 const loginIn = (values, dispatch) => {
-	console.log(values)
 	return new Promise((resolve, reject) => {
 		let response = dispatch(loginInFun(values))
 		// response.payload.then((result) => {

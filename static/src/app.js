@@ -41,7 +41,7 @@ const store = createStore(
 )
 
 const init = () => {
-	// console.log(store.getState())
+	console.log(store.getState())
 }
 init()
 let unsubscribe = store.subscribe(init)

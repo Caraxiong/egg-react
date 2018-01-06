@@ -23,7 +23,6 @@ class Header extends Component {
 
   render() {
     const props = this.props;
-    console.log('Header',props);
     return (
       <header className="h-header">
           <div className="l" onClick={this.showCity.bind(this)}>
@@ -31,7 +30,7 @@ class Header extends Component {
             <span></span>
           </div>
           <div className="r sel-list rel">
-            welcome!<button onClick={ loginOutFun }>Sign out</button>
+            welcome!{this.props.user.user.username}<button onClick={ loginOutFun }>Sign out</button>
           </div>
         </header>
     )

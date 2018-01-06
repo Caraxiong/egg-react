@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Input = ({type, name, placeholder}) => (
+const Input = ({input, type, name, placeholder}) => (
     <div className="input-box">
-        <input type={ type } name={ name } placeholder={ placeholder } />
+        <input { ...input } type={ type } name={ name } placeholder={ placeholder } />
     </div>
 )
 Input.propTypes = {
