@@ -11,6 +11,7 @@ import './Header.scss'
 class Header extends Component {
   constructor(props) {
     super(props);
+    this.loginOut = this.loginOut.bind(this);
   }
 
   componentDidMount() {
@@ -19,6 +20,10 @@ class Header extends Component {
 
   showCity() {
     this.props.showCity()
+  }
+
+  loginOut() {
+    loginOutFun()
   }
 
   render() {
@@ -30,7 +35,7 @@ class Header extends Component {
             <span></span>
           </div>
           <div className="r sel-list rel">
-            welcome!{this.props.user.user.username}<button onClick={ loginOutFun }>Sign out</button>
+            welcome!{this.props.user.username && this.props.user.user.username}<button onClick={ this.loginOut }>Sign out</button>
           </div>
         </header>
     )

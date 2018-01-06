@@ -68,5 +68,6 @@ const signUpFailureFun = ( error ) => {
 export { loginInFun, loginInSuccessFun, loginInFailureFun, signUpFun, signUpSuccessFun, signUpFailureFun}
 
 export const loginOutFun = () => dispatch => {
+  console.log('user')
   dispatch(loginOut())
 }
