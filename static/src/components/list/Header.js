@@ -28,7 +28,8 @@ class Header extends Component {
 
     getAreaData(cityName) {
         let cityStr = this.matchCityStr(cityName)
-        this.props.requestData(`/movie/cinema/?city=${cityStr}`).then((data) => {
+        this.props.requestData(`http://192.168.0.109:7001/movie/cinema/${cityStr}`).then((data) => {
+            console.log(data)
             let regionOrder = data.data.data.returnValue.regionOrder;
             let regionCinemas = data.data.data.returnValue.regionCinemas;
             let allArea = [];

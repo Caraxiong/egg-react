@@ -8,6 +8,8 @@ import {
 } from 'react-router-dom'
 import classnames from 'classnames'
 import './Footer.scss'
+
+import List from '../list/ListContainer'
 import hokIcon from './assets/hok.svg'
 import hnoIcon from './assets/hno.svg'
 import mokIcon from './assets/mok.svg'
@@ -60,18 +62,12 @@ export const Footer = (
 		<Router>
 			<section>
 				{ft}
-				<Route path="/:id" component={Child}/>
+				<Route path="/list" component={List}/>
+				<Route path="/list" component={List}/>
 			</section>
 		</Router>
 	)
 }
 
-const Child = ({
-	match
-}) => (
-	<div>
-    	<h3>ID: {match.params.id}</h3>
-  	</div>
-)
 
 export default Footer
