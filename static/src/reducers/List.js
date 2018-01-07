@@ -1,7 +1,7 @@
 import {
 	GETAREADATA,
 	UPDATEAREA
-} from './ActionTypes'
+} from '../actions/ActionTypes'
 const ACTION_HANDLERS = {
 	[UPDATEAREA]: (state, action) => ({
 		...state,

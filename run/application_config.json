@@ -12,19 +12,20 @@
       "genid": "<Function anonymous>"
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "http://192.168.0.109:7001"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "queryName": "_csrf"
       },
       "xframe": {
         "enable": true,
@@ -41,8 +42,7 @@
         "matching": "<Function anonymous>"
       },
       "methodnoallow": {
-        "enable": true,
-        "matching": "<Function anonymous>"
+        "enable": false
       },
       "noopen": {
         "enable": true,
@@ -60,7 +60,8 @@
       "csp": {
         "enable": false,
         "policy": {}
-      }
+      },
+      "ignore": ""
     },
     "helper": {
       "shtml": {}
@@ -332,6 +333,9 @@
     "clusterClient": {
       "responseTimeout": 60000
     },
+    "middleware": [
+      "apiWrapper"
+    ],
     "coreMiddlewares": [
       "meta",
       "siteFile",
@@ -343,8 +347,12 @@
       "securities",
       "i18n"
     ],
-    "appMiddlewares": [],
-    "appMiddleware": [],
+    "appMiddlewares": [
+      "apiWrapper"
+    ],
+    "appMiddleware": [
+      "apiWrapper"
+    ],
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",

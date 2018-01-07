@@ -5,6 +5,7 @@ import user from './user'
 import city from './city'
 import location from './location'
 import request from './request'
+import list from './list'
 
 const commentsApp = combineReducers({
   form: formReducer,  // <-- redux-form

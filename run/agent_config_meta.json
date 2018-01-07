@@ -9,26 +9,24 @@
     "root": "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view\\config\\config.default.js",
     "cache": "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view\\config\\config.local.js"
   },
-  "session": {
-    "maxAge": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "key": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "encrypt": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
+    "ignore": "F:\\github\\egg-react\\config\\config.default.js",
+    "domainWhiteList": "F:\\github\\egg-react\\config\\config.default.js",
+    "methodnoallow": {
+      "enable": "F:\\github\\egg-react\\config\\config.default.js"
+    },
     "csrf": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
+      "enable": "F:\\github\\egg-react\\config\\config.default.js",
+      "ignoreJSON": "F:\\github\\egg-react\\config\\config.default.js",
       "useSession": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "ignoreJSON": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "cookieName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "sessionName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "headerName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "bodyName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "queryName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
     },
+    "protocolWhiteList": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "value": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
@@ -39,9 +37,6 @@
       "includeSubdomains": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
-    },
-    "methodnoallow": {
       "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
     },
     "noopen": {
@@ -58,6 +53,12 @@
       "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
       "policy": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
+    "key": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
+    "encrypt": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
