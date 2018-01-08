@@ -63,3 +63,133 @@ name: 'unhandledExceptionError'
 pid: 2144
 hostname: PC-20160424NIRE
 
+2018-01-08 11:44:39,295 ERROR 4816 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4816
+hostname: USER-20161011PK
+
+2018-01-08 13:45:56,510 ERROR 4816 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4816
+hostname: USER-20161011PK
+
+2018-01-08 14:29:47,742 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 14:30:23,693 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:18:54,360 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:19:15,622 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:19:17,015 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:19:17,262 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:19:57,357 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:19:58,607 ERROR 2656 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2656
+hostname: USER-20161011PK
+
+2018-01-08 15:23:19,409 ERROR 4156 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4156
+hostname: USER-20161011PK
+
+2018-01-08 16:01:54,789 ERROR 4156 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4156
+hostname: USER-20161011PK
+
+2018-01-08 16:05:29,239 ERROR 4156 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4156
+hostname: USER-20161011PK
+

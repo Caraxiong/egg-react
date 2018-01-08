@@ -16,8 +16,8 @@ class Item extends Component {
     }
 
     render() {
-        let data = this.props.cinema.data
-        let area = this.props.cinema.area
+        let data = this.props.list.data
+        let area = this.props.list.area
         if (this.isEmptyObject(data) || !area) {
             data = {
                 '全部区域': []

@@ -26,7 +26,7 @@ const mapDispatchtoProps = {
 }
 
 const mapStateToProps = (state) => ({
-	cinema: state.cinema,
+	list: state.list,
 	request: state.request,
 	city: state.city
 })

@@ -28,10 +28,10 @@ class Header extends Component {
 
     getAreaData(cityName) {
         let cityStr = this.matchCityStr(cityName)
-        this.props.requestData(`http://192.168.0.109:7001/movie/cinema/${cityStr}`).then((data) => {
+        this.props.requestData(`http://192.168.16.138:7001/movie/cinema/${cityStr}`).then((data) => {
             console.log(data)
-            let regionOrder = data.data.data.returnValue.regionOrder;
-            let regionCinemas = data.data.data.returnValue.regionCinemas;
+            let regionOrder = data.data.returnValue.regionOrder;
+            let regionCinemas = data.data.returnValue.regionCinemas;
             let allArea = [];
             regionOrder.forEach((item) => {
                 regionCinemas[item].forEach((cinema) => {
@@ -100,7 +100,7 @@ class Header extends Component {
                         <span className="ci-i"></span>
                     </div>
                      <div onClick={this.showAreaBox.bind(this)}>
-                        <span className="ci-n">{this.props.cinema.area}</span>
+                        <span className="ci-n">{this.props.list.area}</span>
                         <span className="ci-i"></span>
                     </div>
                 </header>

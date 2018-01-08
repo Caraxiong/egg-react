@@ -12,7 +12,8 @@ const commentsApp = combineReducers({
   toast,
   user,
   city,
-  request
+  request,
+  list
 })
 
 export default commentsApp

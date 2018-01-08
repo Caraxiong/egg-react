@@ -29,8 +29,18 @@ export const requestData = url => (dispatch, getState) => {
   }
   dispatch(pushLoadStack())
   return fetch(url)
-    .then(response => console.log('response',response))
-   
+  .then(response => response.json())
+  .then(json => { 
+    dispatch(receiveData(json))
+    dispatch(popLoadStack())
+    if (!getState().request.loadStack.length) {
+      /*延时是为了更好显示loading，可去掉*/
+      window.setTimeout(() => {
+        Toast.hide()
+      }, 1000)
+    }
+    return json
+  })
 } 
 
 export const actions = {
