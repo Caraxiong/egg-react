@@ -9,7 +9,7 @@ const ACTION_HANDLERS = {
 	}),
 	[GETAREADATA]: (state, action) => ({
 		...state,
-		date: action.payload
+		data: action.payload
 	})
 }
 
