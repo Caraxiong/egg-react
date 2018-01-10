@@ -35,7 +35,8 @@ class Film extends Component {
     if(this.isEmptyObject(cinemaData)){
       return false;
     }
-    this.props.requestData('/movie/cinema_detail').then((data) => {
+    this.props.requestData('http://127.0.0.1:7001/movie/cinema_detail').then((data) => {
+      console.log('film',data)
       let filmLists = data.data.returnValue.shows;
       this.setState({
         filmLists: filmLists,

@@ -12,5 +12,10 @@ class ListController extends Controller {
     const list = await ctx.service.list.list.getDetail(id);
     ctx.body = list
   }
+  async getMovieDetail() {
+    const { ctx } = this;
+    const list = await ctx.service.list.list.getMovieDetail();
+    ctx.body = list
+  }
 }
 module.exports = ListController

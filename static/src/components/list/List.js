@@ -3,17 +3,16 @@ import React, {
 } from 'react'
 import CinameViewHeader from './Header'
 import CinameItem from './Item'
-
 class List extends Component {
 	constructor(props) {
 		super(props);
 	}
 	render() {
 		return (
-			<section>
-				<CinameViewHeader {...this.props} />
-				<CinameItem {...this.props}/>
-			</section>
+      <section>
+        <CinameViewHeader {...this.props} />
+        <CinameItem {...this.props}/>
+      </section>
 		)
 	}
 }

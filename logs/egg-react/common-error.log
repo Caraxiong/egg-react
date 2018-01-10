@@ -193,3 +193,146 @@ name: 'unhandledExceptionError'
 pid: 4156
 hostname: USER-20161011PK
 
+2018-01-09 20:12:06,856 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:17,181 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:18,574 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:18,618 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:34,893 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:36,102 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:14:37,745 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:15:10,665 ERROR 4384 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1041:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4384
+hostname: USER-20161011PK
+
+2018-01-09 20:33:30,140 ERROR 26120 [-/127.0.0.1/-/2ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 26120
+hostname: USER-20161011PK
+
+2018-01-09 20:33:44,114 ERROR 26120 [-/127.0.0.1/-/2ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 26120
+hostname: USER-20161011PK
+
+2018-01-09 20:34:50,721 ERROR 26120 [-/127.0.0.1/-/0ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 26120
+hostname: USER-20161011PK
+
+2018-01-09 20:35:53,496 ERROR 26120 [-/127.0.0.1/-/2ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 26120
+hostname: USER-20161011PK
+
+2018-01-09 20:37:02,528 ERROR 26156 [-/127.0.0.1/-/5ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 26156
+hostname: USER-20161011PK
+
+2018-01-09 20:38:27,314 ERROR 1244 [-/127.0.0.1/-/19ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 1244
+hostname: USER-20161011PK
+
+2018-01-09 20:38:28,082 ERROR 1244 [-/127.0.0.1/-/3ms GET /movie/cinema_detail] nodejs.TypeError: Cannot read property 'message' of undefined
+    at Object.apiWrapperMiddleware (E:\demo\egg-react\app\middleware\api_wrapper.js:16:33)
+    at apiWrapperMiddleware.throw (<anonymous>)
+    at onRejected (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:81:24)
+    at <anonymous>
+
+pid: 1244
+hostname: USER-20161011PK
+

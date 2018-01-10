@@ -9,11 +9,11 @@ class ListDetail extends Component {
     render () {
         return (
         	<section>
-                <CinemaDetailHeader {...this.props} /> 
-                <Film {...this.props} /> 
-                <Period />
-                {/* <Back router={this.props.router} /> */}
-            </section>
+            <CinemaDetailHeader {...this.props} /> 
+            <Film {...this.props} /> 
+            <Period />
+            {/* <Back router={this.props.router} /> */}
+          </section>
         )
   }
 }

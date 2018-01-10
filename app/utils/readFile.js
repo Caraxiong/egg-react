@@ -1,8 +1,13 @@
 const dealFn = require('./dealfn');
 
-let readFile = (name,query,res) => {
+let readFile = (name,query,isNeedCity) => {
     let promise = new Promise((resolve, reject) => {
-        let fileName = query + '_'+ name  + '.json'
+        let fileName 
+        if(isNeedCity){
+          fileName = query + '_'+ name  + '.json'
+        } else{
+          fileName = name + '.json'
+        }
         let sendData = {};
         dealFn.readFileData(fileName).then((data) => {
             sendData.data = data;

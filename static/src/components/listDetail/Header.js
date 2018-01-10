@@ -3,6 +3,7 @@ import './Header.scss'
 
 class Header extends Component {
   constructor (props) {
+    super(props);
     this.state = {
       name: '',
       address: ''
@@ -15,7 +16,7 @@ class Header extends Component {
       this.props.router.push('/');
       return false;
     }
-    let cinemaObj = this.getObjById(this.props.params.id, cinemaData[area]);
+    let cinemaObj = this.getObjById(this.props.match.params.id, cinemaData[area]);
     this.setState({
       name: cinemaObj.cinemaName,
       address: cinemaObj.address
@@ -55,7 +56,7 @@ class Header extends Component {
 }
 
 Header.propTypes = {
-  cinema: PropTypes.object.isRequired,
+  list: PropTypes.object.isRequired,
   router: PropTypes.object.isRequired
 }
 

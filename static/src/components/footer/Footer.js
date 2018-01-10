@@ -10,6 +10,7 @@ import classnames from 'classnames'
 import './Footer.scss'
 
 import List from '../list/ListContainer'
+import Detail from '../listDetail/ListDetailContainer'
 import hokIcon from './assets/hok.svg'
 import hnoIcon from './assets/hno.svg'
 import mokIcon from './assets/mok.svg'
@@ -57,13 +58,33 @@ export const Footer = (
 				</nav>
 			</section>
 		)
-	}
+  }
+  // const routes = [
+  //   {
+  //     path : 'list',
+  //     component : List,
+  //     routes :[
+  //       {
+  //         path : '/list/detail/:id',
+  //         component : Detail,
+  //       }
+  //     ]
+  //   }
+  // ]
+  // const RouteWithSubRoutes = (route) => (
+  //   <Route path={route.path} render={ props => (
+  //     <route.component { ...props } routes={route.routes} />
+  //   )
+  //   }/>
+  // )
+  // console.log('RouteWithSubRoutes', RouteWithSubRoutes(routes))
 	return (
 		<Router>
 			<section>
 				{ft}
-				<Route path="/list" component={List}/>
-				<Route path="/list" component={List}/>
+       
+        <Route path="/list" component={List}/>
+        <Route path="/list/detail/:id" component={Detail}/>
 			</section>
 		</Router>
 	)
