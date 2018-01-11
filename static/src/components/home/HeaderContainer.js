@@ -4,19 +4,26 @@ import { requestData,receiveData } from '../../reducers/request';
 import {
 	showCity
 } from '../../actions/CityActions'
+import {
+	loginOutFun
+} from '../../actions/userActions'
 
 const mapDispatchtoProps = {
   requestData,
   receiveData,
-  showCity
+  showCity,
+  loginOutFun
 }
 
-const mapStateToProps = (state) => ({
-  home: state.home,
-  request: state.request,
-  city: state.city,
-  user: state.user
-})
+const mapStateToProps = (state) => {
+  console.log('HeaderContainer',state.user)
+  return {
+    home: state.home,
+    request: state.request,
+    city: state.city,
+    user: state.user,
+  }
+}
 
 const HeaderContainer = connect(mapStateToProps, mapDispatchtoProps)(Header)
 
