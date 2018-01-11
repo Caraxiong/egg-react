@@ -6,7 +6,7 @@ import {
     Switch
 } from 'react-router-dom'
 
-import Home from '../views/Home'
+import Home from '../components/home/HomeContainer'
 import Login from '../views/Account/Login'
 import Register from '../views/Account/Register'
 import CoreLayout from '../layouts/coreLayout/CoreLayout'

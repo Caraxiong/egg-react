@@ -35,7 +35,9 @@ class Header extends Component {
             <span></span>
           </div>
           <div className="r sel-list rel">
-            welcome!{this.props.user.user ? this.props.user.user.username : ''}<button onClick={ this.loginOut }>Sign out</button>
+            welcome!
+            {/* {this.props} */}
+            <button onClick={ this.loginOut }>Sign out</button>
           </div>
         </header>
     )
