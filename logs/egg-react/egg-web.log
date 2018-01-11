@@ -3424,3 +3424,4 @@
 2018-01-11 11:31:05,269 INFO 12448 [egg-security] use dta middleware
 2018-01-11 11:31:05,269 INFO 12448 [egg-security] compose 5 middlewares into one security middleware
 2018-01-11 11:31:05,300 INFO 12448 [egg-watcher:app] watcher start success
+2018-01-11 14:35:59,809 WARN 12448 [-/10.0.1.236/-/1ms GET /theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/] [egg-security: dta global block] : decode file path ./theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/ failed.

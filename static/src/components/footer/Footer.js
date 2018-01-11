@@ -10,6 +10,8 @@ import classnames from 'classnames'
 import './Footer.scss'
 
 import List from '../list/ListContainer'
+import Me from '../me/meView'
+import Home from '../home/HomeContainer'
 import Detail from '../listDetail/ListDetailContainer'
 import hokIcon from './assets/hok.svg'
 import hnoIcon from './assets/hno.svg'
@@ -83,7 +85,9 @@ export const Footer = (
 			<section>
 				{ft}
        
+        <Route path="/" component={Home}/>
         <Route path="/list" component={List}/>
+        <Route path="/me" component={Me}/>
         <Route path="/list/detail/:id" component={Detail}/>
 			</section>
 		</Router>
