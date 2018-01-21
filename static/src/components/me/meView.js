@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { Link, withRouter } from 'react-router';
+import { Link, withRouter, Redirect } from 'react-router-dom';
 import  { List } from 'antd-mobile';
 import Back from '../back/Back'
 
 const Item = List.Item;
 const Brief = Item.Brief;
 
-function link(router) {
-  router.push('/no')
+function link() {
+  this.setState({redirect: true})
 }
 
 const Me = ({router}) => {

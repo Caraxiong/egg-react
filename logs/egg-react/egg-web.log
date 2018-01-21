@@ -1,0 +1,42 @@
+2018-01-21 10:20:15,119 INFO 15544 [egg:logger] init all loggers with options: {"dir":"F:\\github\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-21 10:20:15,326 INFO 15544 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\clean_log.js
+2018-01-21 10:20:15,326 INFO 15544 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-21 10:20:17,418 INFO 15544 [egg-static] starting static serve /public/ -> F:\github\egg-react\app\public
+2018-01-21 10:20:17,462 INFO 15544 [egg-security] use noopen middleware
+2018-01-21 10:20:17,463 INFO 15544 [egg-security] use nosniff middleware
+2018-01-21 10:20:17,464 INFO 15544 [egg-security] use xssProtection middleware
+2018-01-21 10:20:17,465 INFO 15544 [egg-security] use xframe middleware
+2018-01-21 10:20:17,466 INFO 15544 [egg-security] use dta middleware
+2018-01-21 10:20:17,466 INFO 15544 [egg-security] compose 5 middlewares into one security middleware
+2018-01-21 10:20:15,120 INFO 4556 [egg:logger] init all loggers with options: {"dir":"F:\\github\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-21 10:20:15,325 INFO 4556 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\clean_log.js
+2018-01-21 10:20:15,326 INFO 4556 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-21 10:20:17,418 INFO 4556 [egg-static] starting static serve /public/ -> F:\github\egg-react\app\public
+2018-01-21 10:20:17,462 INFO 4556 [egg-security] use noopen middleware
+2018-01-21 10:20:17,463 INFO 4556 [egg-security] use nosniff middleware
+2018-01-21 10:20:17,464 INFO 4556 [egg-security] use xssProtection middleware
+2018-01-21 10:20:17,465 INFO 4556 [egg-security] use xframe middleware
+2018-01-21 10:20:17,466 INFO 4556 [egg-security] use dta middleware
+2018-01-21 10:20:17,466 INFO 4556 [egg-security] compose 5 middlewares into one security middleware
+2018-01-21 10:20:17,638 INFO 15544 [egg-watcher:app] watcher start success
+2018-01-21 10:20:17,657 INFO 4556 [egg-watcher:app] watcher start success
+2018-01-21 11:22:53,817 WARN 4556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 11:22:53,821 WARN 15544 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 12:18:16,542 WARN 15544 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 12:18:16,551 WARN 4556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 13:32:50,801 WARN 15544 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 13:32:50,805 WARN 4556 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-01-21 13:32:50,875 WARN 4556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 16:40:24,240 WARN 4556 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-01-21 16:40:25,247 WARN 4556 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-21 20:55:59,653 INFO 18072 [egg:logger] init all loggers with options: {"dir":"F:\\github\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-21 20:56:00,025 INFO 18072 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\clean_log.js
+2018-01-21 20:56:00,026 INFO 18072 [egg-schedule]: register schedule F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-21 20:56:02,298 INFO 18072 [egg-static] starting static serve /public/ -> F:\github\egg-react\app\public
+2018-01-21 20:56:02,317 INFO 18072 [egg-security] use noopen middleware
+2018-01-21 20:56:02,318 INFO 18072 [egg-security] use nosniff middleware
+2018-01-21 20:56:02,319 INFO 18072 [egg-security] use xssProtection middleware
+2018-01-21 20:56:02,320 INFO 18072 [egg-security] use xframe middleware
+2018-01-21 20:56:02,321 INFO 18072 [egg-security] use dta middleware
+2018-01-21 20:56:02,321 INFO 18072 [egg-security] compose 5 middlewares into one security middleware
+2018-01-21 20:56:02,391 INFO 18072 [egg-watcher:app] watcher start success

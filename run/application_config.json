@@ -1,9 +1,5 @@
 {
   "config": {
-    "onerror": {
-      "errorPageUrl": "",
-      "appErrorFilter": null
-    },
     "session": {
       "maxAge": 86400000,
       "key": "EGG_SESS",
@@ -14,48 +10,6 @@
       "encode": "<Function encode>",
       "decode": "<Function decode>",
       "genid": "<Function anonymous>"
-    },
-    "i18n": {
-      "defaultLocale": "en_US",
-      "dirs": [
-        "E:\\demo\\egg-react\\node_modules\\_egg-onerror@1.5.0@egg-onerror\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-schedule@2.6.0@egg-schedule\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-view@1.1.2@egg-view\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\locales",
-        "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\locales",
-        "E:\\demo\\egg-react\\config\\locales"
-      ],
-      "queryField": "locale",
-      "cookieField": "locale",
-      "cookieMaxAge": "1y",
-      "functionName": "__"
-    },
-    "watcher": {
-      "type": "development",
-      "eventSources": {
-        "default": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\lib\\event-sources\\development"
-      }
-    },
-    "multipart": {
-      "autoFields": false,
-      "defaultCharset": "utf8",
-      "fieldNameSize": 100,
-      "fieldSize": 102400,
-      "fields": 10,
-      "fileSize": 10485760,
-      "files": 10,
-      "fileExtensions": [],
-      "whitelist": null
     },
     "security": {
       "domainWhiteList": [
@@ -113,29 +67,6 @@
     "helper": {
       "shtml": {}
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": true,
-      "reloadOnDebug": true
-    },
-    "logrotator": {
-      "filesRotateByHour": null,
-      "filesRotateBySize": null,
-      "maxFileSize": 52428800,
-      "maxFiles": 10,
-      "rotateDuration": 60000,
-      "maxDays": 31
-    },
-    "static": {
-      "prefix": "/public/",
-      "dir": "E:\\demo\\egg-react\\app\\public",
-      "dynamic": true,
-      "preload": false,
-      "buffer": false,
-      "maxFiles": 1000,
-      "files": "<LRU>"
-    },
     "jsonp": {
       "limit": 50,
       "callback": [
@@ -144,9 +75,79 @@
       ],
       "csrf": false
     },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.2.2@egg-jsonp\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.6.0@egg-onerror\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.2.6.0@egg-schedule\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\locales",
+        "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\locales",
+        "F:\\github\\egg-react\\config\\locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "F:\\github\\egg-react\\app\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "files": "<LRU>"
+    },
     "view": {
       "root": [
-        "E:\\demo\\egg-react\\app\\view"
+        "F:\\github\\egg-react\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -240,9 +241,9 @@
         "whatwg-fetch": "^2.0.3"
       }
     },
-    "baseDir": "E:\\demo\\egg-react",
+    "baseDir": "F:\\github\\egg-react",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "E:\\demo\\egg-react\\run",
+    "rundir": "F:\\github\\egg-react\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -273,7 +274,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "E:\\demo\\egg-react\\logs\\egg-react",
+      "dir": "F:\\github\\egg-react\\logs\\egg-react",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -319,8 +320,8 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "i18n",
-      "securities"
+      "securities",
+      "i18n"
     ],
     "workerStartTimeout": 600000,
     "cluster": {
@@ -344,8 +345,8 @@
       "bodyParser",
       "overrideMethod",
       "session",
-      "i18n",
-      "securities"
+      "securities",
+      "i18n"
     ],
     "appMiddlewares": [
       "apiWrapper"
@@ -367,17 +368,6 @@
     }
   },
   "plugins": {
-    "onerror": {
-      "enable": true,
-      "package": "egg-onerror",
-      "name": "onerror",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-onerror@1.5.0@egg-onerror",
-      "version": "1.5.0"
-    },
     "session": {
       "enable": true,
       "package": "egg-session",
@@ -385,42 +375,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session",
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session",
       "version": "2.1.1"
-    },
-    "i18n": {
-      "enable": true,
-      "package": "egg-i18n",
-      "name": "i18n",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n",
-      "version": "1.2.0"
-    },
-    "watcher": {
-      "enable": true,
-      "package": "egg-watcher",
-      "name": "watcher",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher",
-      "version": "2.2.0"
-    },
-    "multipart": {
-      "enable": true,
-      "package": "egg-multipart",
-      "name": "multipart",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart",
-      "version": "1.5.0"
     },
     "security": {
       "enable": true,
@@ -431,9 +388,68 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security",
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security",
       "version": "1.12.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.2.2@egg-jsonp",
+      "version": "1.2.2"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.6.0@egg-onerror",
+      "version": "1.6.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n",
+      "version": "1.2.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher",
+      "version": "2.2.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart",
+      "version": "1.5.1"
     },
     "development": {
       "enable": true,
@@ -446,9 +462,9 @@
       "env": [
         "local"
       ],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development",
-      "version": "1.3.1"
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development",
+      "version": "1.3.2"
     },
     "schedule": {
       "enable": true,
@@ -457,8 +473,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-schedule@2.6.0@egg-schedule",
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.2.6.0@egg-schedule",
       "version": "2.6.0"
     },
     "logrotator": {
@@ -470,9 +486,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator",
-      "version": "2.2.3"
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator",
+      "version": "2.3.1"
     },
     "static": {
       "enable": true,
@@ -481,22 +497,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static",
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static",
       "version": "1.4.1"
-    },
-    "jsonp": {
-      "enable": true,
-      "package": "egg-jsonp",
-      "name": "jsonp",
-      "dependencies": [],
-      "optionalDependencies": [
-        "security"
-      ],
-      "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp",
-      "version": "1.2.1"
     },
     "view": {
       "enable": true,
@@ -505,8 +508,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-view@1.1.2@egg-view",
+      "from": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view",
       "version": "1.1.2"
     },
     "nunjucks": {
@@ -519,8 +522,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\demo\\egg-react\\config\\plugin.js",
-      "path": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks",
+      "from": "F:\\github\\egg-react\\config\\plugin.js",
+      "path": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks",
       "version": "2.1.4"
     }
   }

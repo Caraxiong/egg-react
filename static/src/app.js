@@ -18,6 +18,7 @@ import {
 } from 'react-router-dom'
 import routes from './routes/'
 import reducer from './reducers/reducers'
+import { updateLocation } from './reducers/location'
 import Home from './views/Home'
 import './style/normalize.scss'
 //测试二维码案例
@@ -39,12 +40,14 @@ const store = createStore(
 	reducer,
 	applyMiddleware(...middleware)
 )
-
 const init = () => {
 	console.log(store.getState())
 }
 init()
-let unsubscribe = store.subscribe(init)
+
+store.subscribe(init)
+// 绑定browserHistory，取消绑定执行store.unsubscribeHistory()
+// store.unsubscribeHistory = hashHistory.listen(updateLocation(store))
 // Finally, we render a <Router> with some <Route>s.
 // It does all the fancy routing stuff for us.
 render(<Provider store={store}>

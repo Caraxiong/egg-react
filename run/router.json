@@ -46,5 +46,31 @@
     "stack": [
       "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getDetail()"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/movie/cinema_detail",
+    "regexp": "/^\\/movie\\/cinema_detail(?:\\/(?=$))?$/",
+    "stack": [
+      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getMovieDetail()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/movie/swiper",
+    "regexp": "/^\\/movie\\/swiper(?:\\/(?=$))?$/",
+    "stack": [
+      "F:\\github\\egg-react\\app\\controller\\home\\home.js#HomeController.getImgs()"
+    ]
   }
 ]

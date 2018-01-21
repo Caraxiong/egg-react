@@ -16,7 +16,6 @@ const mapDispatchtoProps = {
 }
 
 const mapStateToProps = (state) => {
-  console.log('HeaderContainer',state.user)
   return {
     home: state.home,
     request: state.request,

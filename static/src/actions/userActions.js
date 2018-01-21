@@ -1,7 +1,6 @@
 import * as types from './ActionTypes'
 
 const loginInFun = ( formValues ) => {
-    console.log(formValues)
     // 需要发送请求，todo
     return {
         type: types.LOGIN_USER,
@@ -68,6 +67,5 @@ const signUpFailureFun = ( error ) => {
 export { loginInFun, loginInSuccessFun, loginInFailureFun, signUpFun, signUpSuccessFun, signUpFailureFun}
 
 export const loginOutFun = () => dispatch => {
-  console.log('user')
   dispatch(loginOut())
 }

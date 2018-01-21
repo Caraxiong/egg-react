@@ -24,7 +24,6 @@ class Header extends Component {
 
   render() {
     const props = this.props;
-    console.log('props',props)
     return (
       <header className="h-header">
           <div className="l" onClick={this.showCity.bind(this)}>
