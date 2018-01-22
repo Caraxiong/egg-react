@@ -14,7 +14,7 @@ import PageNoFound from '../components/error/404/PageNoFound'
 const routes = (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={CoreLayout}/>
+            <Route exact path="/" render={({location}) => (<CoreLayout location= {location}/>)}/>
             <Route path="/register" component={Register}/>
             <Route path="/login" component={Login}/>
             <Route component={PageNoFound} />

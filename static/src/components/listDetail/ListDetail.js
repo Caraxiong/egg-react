@@ -11,12 +11,12 @@ import Back from '../back/Back';
 class ListDetail extends Component {
     render () {
         return (
-          <Route render={({history}) => (
+          <Route render={({location: pathname,history}) => (
             <section>
               <CinemaDetailHeader {...this.props} /> 
               <Film {...this.props} /> 
               <Period />
-              <Back router={history} />
+              <Back router={history} location={location} />
             </section>
           )}/>
         )

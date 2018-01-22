@@ -62,3 +62,4 @@
 2018-01-22 09:42:29,870 INFO 9420 [egg-security] use dta middleware
 2018-01-22 09:42:29,870 INFO 9420 [egg-security] compose 5 middlewares into one security middleware
 2018-01-22 09:42:29,906 INFO 9420 [egg-watcher:app] watcher start success
+2018-01-22 12:00:38,795 WARN 9420 [-/10.0.1.236/-/1ms GET /theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/] [egg-security: dta global block] : decode file path ./theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/ failed.
