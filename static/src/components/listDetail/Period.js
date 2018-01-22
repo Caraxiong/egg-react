@@ -9,7 +9,7 @@ class Period extends Component{
     }
   }
 
-  selectData(event){
+  selectDate(event){
     let num = +event.target.getAttribute('data-num');
     if (num) {
       this.setState({

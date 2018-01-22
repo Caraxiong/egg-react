@@ -13,7 +13,7 @@ class Header extends Component {
     let area = this.props.list.area;
     let cinemaData = this.props.list.data;
     if(this.isEmptyObject(cinemaData)){
-      this.props.router.push('/');
+      // this.props.router.push('/');
       return false;
     }
     let cinemaObj = this.getObjById(this.props.match.params.id, cinemaData[area]);
@@ -57,7 +57,7 @@ class Header extends Component {
 
 Header.propTypes = {
   list: PropTypes.object.isRequired,
-  router: PropTypes.object.isRequired
+  // router: PropTypes.object.isRequired
 }
 
 export default Header

@@ -87,6 +87,7 @@ class Film extends Component {
       let winWidth = document.documentElement.clientWidth || document.body.clientWidth;
       let selfWidth = +ele.getAttribute('data-width');
       let id = ele.getAttribute('data-id');
+      console.log('film',this.getObjById(id, this.state.filmLists))
       this.setState({
         film: this.getObjById(id, this.state.filmLists)
       })
@@ -162,7 +163,7 @@ class Film extends Component {
     }
   }
 
-  addEventListener(slideBox) {
+  addListenEvent(slideBox) {
     slideBox.addEventListener('click', event => {
       this.selectFilm.call(this, event, slideBox);
     },false);
@@ -241,7 +242,7 @@ class Film extends Component {
           <p>{this.state.film.showName}</p>
           <div className="full-star rel">
             <div className="score-start" style={{width: `${this.state.film.remark*10}%`}}></div>
-            <span className="score abs">{this.state.file.remark}</span>
+            <span className="score abs">{this.state.film.remark}</span>
           </div>
         </div>
       </section>
