@@ -6,15 +6,12 @@ import City from '../../components/city/CityContainer'
 
 
 const CoreLayout = ({
-	children,
 	location
 }) => {
-  console.log('children',children)
 	return (
 		<div className='container tc'>
-		<div className='cl-viewport'>
-			{children}
-		</div>
+		{/* <div className='cl-viewport'>
+		</div> */}
     <City/>
 	  <Footer { ...location } />
 	</div>

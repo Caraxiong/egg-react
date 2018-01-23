@@ -77,7 +77,7 @@ export const Footer = (
 				{ft}
        
         <Route exact path="/" render={() => <Home/>}/>
-        <Route path="/list" render={() => <List/>}/>
+        <Route exact path="/list" render={() => <List/>}/>
         <Route path="/me" render={() => <Me/>}/>
         <Route path="/list/detail/:id" component={Detail}/>
 			</section>
