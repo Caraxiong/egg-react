@@ -4,7 +4,8 @@ import React, {
 import {
 	BrowserRouter as Router,
 	Route,
-	Link
+  Link,
+  NavLink
 } from 'react-router-dom'
 import classnames from 'classnames'
 import './Footer.scss'
@@ -20,6 +21,17 @@ import mnoIcon from './assets/mno.svg'
 import eokIcon from './assets/eok.svg'
 import enoIcon from './assets/eno.svg'
 
+const MenuLink = ({to, okIcon , noIcon, activeOnlyWhenExact}) => (
+  <Route path = {to} exact={activeOnlyWhenExact} children={({match}) => (
+    <Link to={to}>
+      <div className={classnames({
+        'nav-icon':true,'rel':true,'hic':true,'nav-s':match
+      })}>
+        <img src={match? okIcon: noIcon} />
+      </div>
+    </Link>
+  )}/>
+)
 export const Footer = (
 	location
 ) => {
@@ -29,34 +41,13 @@ export const Footer = (
 		ft = (
 			<section className = "footer-nav">
 				<nav>
-					<Link to='/'>
-						<div className={classnames({
-							'nav-icon':true,'rel':true,'hic':true,
-							'nav-s':pathName==='/'
-						})}>
-							<img src={pathName === '/'? hokIcon: hnoIcon} />
-						</div>
-					</Link>
+          <MenuLink activeOnlyWhenExact={true} to='/' okIcon={hokIcon} noIcon={hnoIcon}/>
 				</nav>
 				<nav>
-					<Link to="/list">
-						<div className={classnames({
-							'nav-icon': true, 'rel': true, 'nic': true,
-							'nav-s': pathName === '/list'
-						})}>
-							<img src={pathName === '/list' ? mokIcon : mnoIcon} />
-						</div>
-					</Link> 
+          <MenuLink to='/list' okIcon={mokIcon} noIcon={mnoIcon}/>
 				</nav> 
 				<nav>
-					<Link to="/me">
-						<div className={classnames({
-							'nav-icon': true, 'rel': true, 'eic': true,
-							'nav-s': pathName === '/me'
-						})}>
-							<img src={pathName === '/me' ? eokIcon : enoIcon} />
-						</div>
-					</Link> 
+          <MenuLink to='/me' okIcon={eokIcon} noIcon={enoIcon}/>
 				</nav>
 			</section>
 		)
@@ -85,9 +76,9 @@ export const Footer = (
 			<section>
 				{ft}
        
-        <Route path="/" component={Home}/>
-        <Route path="/list" component={List}/>
-        <Route path="/me" component={Me}/>
+        <Route exact path="/" render={() => <Home/>}/>
+        <Route path="/list" render={() => <List/>}/>
+        <Route path="/me" render={() => <Me/>}/>
         <Route path="/list/detail/:id" component={Detail}/>
 			</section>
 		</Router>

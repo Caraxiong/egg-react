@@ -13,3 +13,18 @@ message: 'Bad Request'
 pid: 9420
 hostname: USER-20161011PK
 
+2018-01-23 10:18:46,670 WARN 7908 [-/10.0.1.236/-/1ms GET /../../../../../../../../../etc/passwd] nodejs.BadRequestError: Bad Request
+    at Object.throw (E:\demo\egg-react\node_modules\_koa@1.4.1@koa\lib\context.js:89:23)
+    at Object.dta (E:\demo\egg-react\node_modules\_egg-security@1.12.1@egg-security\lib\middlewares\dta.js:10:17)
+    at dta.next (<anonymous>)
+    at onFulfilled (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:65:19)
+    at E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:50:10)
+    at Object.toPromise (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:118:63)
+    at next (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:99:29)
+    at onFulfilled (E:\demo\egg-react\node_modules\_co@4.6.0@co\index.js:69:7)
+message: 'Bad Request'
+pid: 7908
+hostname: USER-20161011PK
+

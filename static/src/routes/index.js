@@ -15,7 +15,7 @@ const routes = (
     <BrowserRouter>
         <Switch>
             <Route exact path="/" render={({location}) => (<CoreLayout location= {location}/>)}/>
-            <Route path="/register" component={Register}/>
+            <Route exact path="/register" component={Register}/>
             <Route path="/login" component={Login}/>
             <Route component={PageNoFound} />
         </Switch> 
