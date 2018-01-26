@@ -5,7 +5,7 @@ const config = require('../config')
 const entryPath = path.resolve(__dirname,'../src/app.js')
 
 // const ExtractTextPlugin = require('extract-text-webpack-plugin')
-
+console.log('process.env.NODE_ENV',process.env.NODE_ENV)
 module.exports = {
   entry: entryPath, //已多次提及的唯一入口文件
   output: {

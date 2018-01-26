@@ -35,9 +35,7 @@ module.exports = merge(baseWebpackConfig, {
         }),
         new webpack.HotModuleReplacementPlugin(), //热加载
         new webpack.DefinePlugin({
-          'process.env': {
-            NODE_ENV: JSON.stringify('development')
-          }
+          'process.env': require('../config/dev.env')
         }),
       ],
       devServer: {
