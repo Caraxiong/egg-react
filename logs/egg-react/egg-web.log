@@ -85,3 +85,48 @@
 2018-01-23 15:29:01,062 INFO 4132 [egg-security] use dta middleware
 2018-01-23 15:29:01,062 INFO 4132 [egg-security] compose 5 middlewares into one security middleware
 2018-01-23 15:29:01,109 INFO 4132 [egg-watcher:app] watcher start success
+2018-01-24 15:05:51,161 INFO 13352 [egg:logger] init all loggers with options: {"dir":"E:\\demo\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-24 15:05:51,271 INFO 13352 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\clean_log.js
+2018-01-24 15:05:51,272 INFO 13352 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-24 15:05:52,236 INFO 13352 [egg-static] starting static serve /public/ -> E:\demo\egg-react\app\public
+2018-01-24 15:05:52,239 INFO 13352 [egg-security] use noopen middleware
+2018-01-24 15:05:52,239 INFO 13352 [egg-security] use nosniff middleware
+2018-01-24 15:05:52,240 INFO 13352 [egg-security] use xssProtection middleware
+2018-01-24 15:05:52,241 INFO 13352 [egg-security] use xframe middleware
+2018-01-24 15:05:52,241 INFO 13352 [egg-security] use dta middleware
+2018-01-24 15:05:52,241 INFO 13352 [egg-security] compose 5 middlewares into one security middleware
+2018-01-24 15:05:52,271 INFO 13352 [egg-watcher:app] watcher start success
+2018-01-26 11:42:24,263 INFO 11492 [egg:logger] init all loggers with options: {"dir":"E:\\demo\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-26 11:42:24,353 INFO 11492 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\clean_log.js
+2018-01-26 11:42:24,353 INFO 11492 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-26 11:42:24,864 INFO 11492 [egg-static] starting static serve /public/ -> E:\demo\egg-react\app\public
+2018-01-26 11:42:24,868 INFO 11492 [egg-security] use noopen middleware
+2018-01-26 11:42:24,869 INFO 11492 [egg-security] use nosniff middleware
+2018-01-26 11:42:24,870 INFO 11492 [egg-security] use xssProtection middleware
+2018-01-26 11:42:24,871 INFO 11492 [egg-security] use xframe middleware
+2018-01-26 11:42:24,872 INFO 11492 [egg-security] use dta middleware
+2018-01-26 11:42:24,872 INFO 11492 [egg-security] compose 5 middlewares into one security middleware
+2018-01-26 11:42:24,908 INFO 11492 [egg-watcher:app] watcher start success
+2018-01-26 13:40:16,688 INFO 12600 [egg:logger] init all loggers with options: {"dir":"E:\\demo\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-26 13:40:16,717 INFO 12600 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\clean_log.js
+2018-01-26 13:40:16,717 INFO 12600 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-26 13:40:16,798 INFO 12600 [egg-static] starting static serve /public/ -> E:\demo\egg-react\app\public
+2018-01-26 13:40:16,800 INFO 12600 [egg-security] use noopen middleware
+2018-01-26 13:40:16,801 INFO 12600 [egg-security] use nosniff middleware
+2018-01-26 13:40:16,801 INFO 12600 [egg-security] use xssProtection middleware
+2018-01-26 13:40:16,802 INFO 12600 [egg-security] use xframe middleware
+2018-01-26 13:40:16,803 INFO 12600 [egg-security] use dta middleware
+2018-01-26 13:40:16,803 INFO 12600 [egg-security] compose 5 middlewares into one security middleware
+2018-01-26 13:40:16,838 INFO 12600 [egg-watcher:app] watcher start success
+2018-01-26 14:09:18,889 INFO 13196 [egg:logger] init all loggers with options: {"dir":"E:\\demo\\egg-react\\logs\\egg-react","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-26 14:09:18,920 INFO 13196 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\clean_log.js
+2018-01-26 14:09:18,920 INFO 13196 [egg-schedule]: register schedule E:\demo\egg-react\node_modules\_egg-logrotator@2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-26 14:09:19,012 INFO 13196 [egg-static] starting static serve /public/ -> E:\demo\egg-react\app\public
+2018-01-26 14:09:19,015 INFO 13196 [egg-security] use noopen middleware
+2018-01-26 14:09:19,016 INFO 13196 [egg-security] use nosniff middleware
+2018-01-26 14:09:19,016 INFO 13196 [egg-security] use xssProtection middleware
+2018-01-26 14:09:19,017 INFO 13196 [egg-security] use xframe middleware
+2018-01-26 14:09:19,018 INFO 13196 [egg-security] use dta middleware
+2018-01-26 14:09:19,018 INFO 13196 [egg-security] compose 5 middlewares into one security middleware
+2018-01-26 14:09:19,055 INFO 13196 [egg-watcher:app] watcher start success
+2018-01-26 14:47:46,946 WARN 13196 [-/127.0.0.1/-/2ms GET /theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/] [egg-security: dta global block] : decode file path ./theme/META-INF/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/ failed.

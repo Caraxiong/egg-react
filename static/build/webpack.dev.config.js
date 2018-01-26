@@ -2,34 +2,14 @@
 const merge = require('webpack-merge')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const baseWebpackConfig = require('./webpack.base.config')
 const path = require('path')
-const indexPath = path.resolve(__dirname,'../src/index.html')
+const config = require('../config')
 const entryPath = path.resolve(__dirname,'../src/app.js')
 const outPath = path.resolve(__dirname,'./../../app/view/public')
 
-module.exports = merge({
-  entry: entryPath, //已多次提及的唯一入口文件
-  output: {
-      path: outPath, //打包后的文件存放的地方
-      filename: 'public/js/bundle.js', //打包后输出文件的文件名
-      publicPath: '/' //资源的发布地址
-    },
-    module: {
-      loaders: [{
-          test: /\.json$/,
-          loader: "json-loader"
-      }, {
-          test: /\.scss$/,
-          loader: 'style-loader!css-loader!postcss-loader!sass-loader'
-      }, {
-          test: /\.(png|jpg|svg)$/, //通过 name 字段来指定图片打包的目录与文件名
-          loader: 'url-loader?limit=8192&name=[path][name].[ext]&outputPath=img/&publicPath=output/'
-      }, {
-          test: /\.html$/, //在 bundle.js 中引用 html 文件，import '../index.html';这样 html 文件中的图片就可以被打包进 bundle 文件夹里了。
-          loader: 'html-withimg-loader'
-      }]
-    }}, {
-      devtool: 'eval-source-map', 
+module.exports = merge(baseWebpackConfig, {
+      devtool: config.dev.devtool, 
       module: {
         loaders: [{
             test: /\.js$/,
@@ -51,7 +31,7 @@ module.exports = merge({
       plugins: [
         new webpack.BannerPlugin("Copyright Caraxiong"),
         new HtmlWebpackPlugin({
-            template: indexPath
+            template: config.dev.index
         }),
         new webpack.HotModuleReplacementPlugin(), //热加载
         new webpack.DefinePlugin({
@@ -64,8 +44,13 @@ module.exports = merge({
         contentBase: "./public", //本地服务器所加载的页面所在的目录
         port: "8087", //设置默认监听端口，如果省略，默认为”8080“
         // colors:true,        //终端中输出结果为彩色
-        historyApiFallback: true, //不跳转  在开发单页应用时非常有用，它依赖于HTML5 history API，如果设置为true，所有的跳转将指向index.html
-        inline: true //实时刷新
-    }
+        historyApiFallback: true, //这个配置属性是用来应对返回404页面时定向到特定页面用的    在开发单页应用时非常有用，它依赖于HTML5 history API，如果设置为true，所有的跳转将指向index.html
+        inline: true, //实时刷新
+        host: '127.0.0.1', //服务器主机号
+        overlay: true, //用来在编译出错的时候，在浏览器页面上显示错误
+        stats: 'errors-only', //控制编译的时候shell上的输出内容   "errors-only"表示只打印错误
+        quiet: false, //当这个配置属性和devServer.stats属于同一类型的配置属性   当它被设置为true的时候，控制台只输出第一次编译的信息，当你保存后再次编译的时候不会输出任何内容，包括错误和警告
+        compress: false,// 设置为true的时候对所有的服务器资源采用gzip压缩   采用gzip压缩的优点和缺点：优点：对JS，CSS资源的压缩率很高，可以极大得提高文件传输的速率，从而提升web性能  缺点：服务端要对文件进行压缩，而客户端要进行解压，增加了两边的负载
+      }
   }
 )
