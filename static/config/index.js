@@ -28,7 +28,7 @@ module.exports = {
     index: path.resolve(__dirname,'../src/index.html'), //index.html文件地址
 
     //paths
-    assetsRoot: path.resolve(__dirname,'../src/public'),
+    assetsRoot: path.resolve(__dirname,'../../','app/view'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
 

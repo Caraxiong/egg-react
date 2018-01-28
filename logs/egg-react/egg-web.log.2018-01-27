@@ -1,0 +1,11 @@
+2018-01-27 09:39:17,858 INFO 13604 [egg-logrotator] app logger reload: got log-reload message
+2018-01-27 12:58:57,609 WARN 13604 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-01-27 12:59:00,307 WARN 13604 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-28 13:03:32,814 WARN 13604 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-01-28 13:03:33,597 INFO 13604 [egg-schedule]: get message: {"key":"F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\app\\schedule\\clean_log.js"}
+2018-01-28 13:03:33,597 INFO 13604 [egg-schedule]: get message: {"key":"F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\app\\schedule\\rotate_by_file.js"}
+2018-01-28 13:03:35,376 INFO 13604 [egg-logrotator] clean all log before 31 days
+2018-01-28 13:03:35,376 INFO 13604 [egg-schedule] F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\clean_log.js excute succeed, used 1779ms
+2018-01-28 13:03:36,577 INFO 13604 [egg-logrotator] broadcast log-reload
+2018-01-28 13:03:36,577 INFO 13604 [egg-logrotator] rotate files success by DayRotator, files ["F:\\github\\egg-react\\logs\\egg-react\\common-error.log -> F:\\github\\egg-react\\logs\\egg-react\\common-error.log.2018-01-27","F:\\github\\egg-react\\logs\\egg-react\\egg-react-web.log -> F:\\github\\egg-react\\logs\\egg-react\\egg-react-web.log.2018-01-27","F:\\github\\egg-react\\logs\\egg-react\\egg-web.log -> F:\\github\\egg-react\\logs\\egg-react\\egg-web.log.2018-01-27","F:\\github\\egg-react\\logs\\egg-react\\egg-agent.log -> F:\\github\\egg-react\\logs\\egg-react\\egg-agent.log.2018-01-27"]
+2018-01-28 13:03:36,577 INFO 13604 [egg-schedule] F:\github\egg-react\node_modules\.2.3.1@egg-logrotator\app\schedule\rotate_by_file.js excute succeed, used 2980ms

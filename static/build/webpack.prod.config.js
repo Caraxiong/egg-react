@@ -19,7 +19,11 @@ module.exports = merge(baseWebpackConfig, {
     }]
   },
   plugins:[
-    new webpack.BannerPlugin("Copyright Caraxiong"),
+    //通过将公共模块拆出来，最终合成的文件能够在最开始的时候加载一次，便存起来到缓存中供后续使用。这个带来速度上的提升，因为浏览器会迅速将公共的代码从缓存中取出来，而不是每次访问一个新页面时，再去加载一个更大的文件。
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'commons', //公共chunk的名称
+    //   filename: 'commons.js', //公共chunk的文件名
+    // }),
     new HtmlWebpackPlugin({
         template: config.build.index
     }),

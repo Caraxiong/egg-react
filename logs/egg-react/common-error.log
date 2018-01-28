@@ -1,63 +1,36 @@
-2018-01-21 11:22:51,035 ERROR 11320 nodejs.ClusterClientNoResponseError: client no response in 3473377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2018-01-28 14:21:16,954 ERROR 3900 nodejs.ClusterClientNoResponseError: client no response in 4661578ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
 name: 'ClusterClientNoResponseError'
-pid: 11320
+pid: 3900
 hostname: PC-20160424NIRE
 
-2018-01-21 11:22:51,373 ERROR 10648 nodejs.ClusterClientNoResponseError: client no response in 3473694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2018-01-28 19:11:18,110 ERROR 3900 nodejs.ClusterClientNoResponseError: client no response in 17398701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
 name: 'ClusterClientNoResponseError'
-pid: 10648
+pid: 3900
 hostname: PC-20160424NIRE
 
-2018-01-21 12:18:16,543 ERROR 11320 nodejs.ClusterClientNoResponseError: client no response in 2402657ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2018-01-28 19:44:19,718 ERROR 3900 nodejs.ClusterClientNoResponseError: client no response in 1981342ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
 name: 'ClusterClientNoResponseError'
-pid: 11320
+pid: 3900
 hostname: PC-20160424NIRE
 
-2018-01-21 12:18:16,553 ERROR 10648 nodejs.ClusterClientNoResponseError: client no response in 2402678ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2018-01-28 19:46:51,471 ERROR 3900 nodejs.ClusterClientNoResponseError: client no response in 151737ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
     at ontimeout (timers.js:475:11)
     at tryOnTimeout (timers.js:310:5)
     at Timer.listOnTimeout (timers.js:270:5)
 name: 'ClusterClientNoResponseError'
-pid: 10648
-hostname: PC-20160424NIRE
-
-2018-01-21 13:32:50,800 ERROR 10648 nodejs.ClusterClientNoResponseError: client no response in 4474026ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
-    at ontimeout (timers.js:475:11)
-    at tryOnTimeout (timers.js:310:5)
-    at Timer.listOnTimeout (timers.js:270:5)
-name: 'ClusterClientNoResponseError'
-pid: 10648
-hostname: PC-20160424NIRE
-
-2018-01-21 13:32:50,802 ERROR 11320 nodejs.ClusterClientNoResponseError: client no response in 4474036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
-    at ontimeout (timers.js:475:11)
-    at tryOnTimeout (timers.js:310:5)
-    at Timer.listOnTimeout (timers.js:270:5)
-name: 'ClusterClientNoResponseError'
-pid: 11320
-hostname: PC-20160424NIRE
-
-2018-01-21 16:40:24,242 ERROR 10648 nodejs.ClusterClientNoResponseError: client no response in 5013027ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\github\egg-react\node_modules\.1.7.1@cluster-client\lib\leader.js:73:23)
-    at ontimeout (timers.js:475:11)
-    at tryOnTimeout (timers.js:310:5)
-    at Timer.listOnTimeout (timers.js:270:5)
-name: 'ClusterClientNoResponseError'
-pid: 10648
+pid: 3900
 hostname: PC-20160424NIRE
 
