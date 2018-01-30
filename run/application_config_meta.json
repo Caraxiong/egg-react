@@ -1,289 +1,299 @@
 {
-  "keys": "F:\\github\\egg-react\\config\\config.default.js",
+  "keys": "E:\\demo\\egg-react\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "F:\\github\\egg-react\\config\\config.default.js",
-    "defaultExtension": "F:\\github\\egg-react\\config\\config.default.js",
+    "defaultViewEngine": "E:\\demo\\egg-react\\config\\config.default.js",
+    "defaultExtension": "E:\\demo\\egg-react\\config\\config.default.js",
     "mapping": {
-      ".html": "F:\\github\\egg-react\\config\\config.default.js"
+      ".html": "E:\\demo\\egg-react\\config\\config.default.js"
     },
-    "root": "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view\\config\\config.default.js",
-    "cache": "F:\\github\\egg-react\\node_modules\\.1.1.2@egg-view\\config\\config.local.js"
+    "root": "E:\\demo\\egg-react\\node_modules\\_egg-view@1.1.2@egg-view\\config\\config.default.js",
+    "cache": "E:\\demo\\egg-react\\node_modules\\_egg-view@1.1.2@egg-view\\config\\config.local.js"
   },
-  "middleware": "F:\\github\\egg-react\\config\\config.default.js",
+  "middleware": "E:\\demo\\egg-react\\config\\config.default.js",
   "security": {
-    "ignore": "F:\\github\\egg-react\\config\\config.default.js",
-    "domainWhiteList": "F:\\github\\egg-react\\config\\config.default.js",
+    "ignore": "E:\\demo\\egg-react\\config\\config.default.js",
+    "domainWhiteList": "E:\\demo\\egg-react\\config\\config.default.js",
     "methodnoallow": {
-      "enable": "F:\\github\\egg-react\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\config\\config.default.js"
     },
     "csrf": {
-      "enable": "F:\\github\\egg-react\\config\\config.default.js",
-      "ignoreJSON": "F:\\github\\egg-react\\config\\config.default.js",
-      "useSession": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "cookieName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "sessionName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "headerName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "bodyName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "queryName": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\config\\config.default.js",
+      "ignoreJSON": "E:\\demo\\egg-react\\config\\config.default.js",
+      "useSession": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "cookieName": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "sessionName": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "headerName": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "bodyName": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "queryName": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
-    "protocolWhiteList": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "value": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "value": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.local.js",
-      "maxAge": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "includeSubdomains": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.local.js",
+      "maxAge": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "value": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "value": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js",
-      "policy": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
+      "enable": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js",
+      "policy": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
     }
   },
-  "session": {
-    "maxAge": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "key": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "encrypt": "F:\\github\\egg-react\\node_modules\\.2.1.1@egg-session\\config\\config.default.js"
-  },
-  "helper": {
-    "shtml": "F:\\github\\egg-react\\node_modules\\.1.12.1@egg-security\\config\\config.default.js"
-  },
-  "jsonp": {
-    "limit": "F:\\github\\egg-react\\node_modules\\.1.2.2@egg-jsonp\\config\\config.default.js",
-    "callback": "F:\\github\\egg-react\\node_modules\\.1.2.2@egg-jsonp\\config\\config.default.js",
-    "csrf": "F:\\github\\egg-react\\node_modules\\.1.2.2@egg-jsonp\\config\\config.default.js"
-  },
   "onerror": {
-    "errorPageUrl": "F:\\github\\egg-react\\node_modules\\.1.6.0@egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "F:\\github\\egg-react\\node_modules\\.1.6.0@egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "E:\\demo\\egg-react\\node_modules\\_egg-onerror@1.5.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\demo\\egg-react\\node_modules\\_egg-onerror@1.5.0@egg-onerror\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session\\config\\config.default.js",
+    "key": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session\\config\\config.default.js",
+    "encrypt": "E:\\demo\\egg-react\\node_modules\\_egg-session@2.1.1@egg-session\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\config.default.js",
-    "dirs": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\config.default.js",
-    "queryField": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\config.default.js",
-    "cookieField": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "F:\\github\\egg-react\\node_modules\\.1.2.0@egg-i18n\\config\\config.default.js"
+    "defaultLocale": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\demo\\egg-react\\node_modules\\_egg-i18n@1.2.0@egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\config\\config.local.js",
+    "type": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\config\\config.default.js",
-      "development": "F:\\github\\egg-react\\node_modules\\.2.2.0@egg-watcher\\config\\config.default.js"
+      "default": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\config\\config.default.js",
+      "development": "E:\\demo\\egg-react\\node_modules\\_egg-watcher@2.2.0@egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "fieldSize": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "fields": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "fileSize": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "files": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js",
-    "whitelist": "F:\\github\\egg-react\\node_modules\\.1.5.1@egg-multipart\\config\\config.default.js"
+    "autoFields": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "fields": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "files": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\demo\\egg-react\\node_modules\\_egg-multipart@1.5.0@egg-multipart\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\demo\\egg-react\\node_modules\\_egg-security@1.12.1@egg-security\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development\\config\\config.default.js",
-    "ignoreDirs": "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development\\config\\config.default.js",
-    "fastReady": "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development\\config\\config.default.js",
-    "reloadOnDebug": "F:\\github\\egg-react\\node_modules\\.1.3.2@egg-development\\config\\config.default.js"
+    "watchDirs": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development\\config\\config.default.js",
+    "fastReady": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\demo\\egg-react\\node_modules\\_egg-development@1.3.1@egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "maxFiles": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js",
-    "maxDays": "F:\\github\\egg-react\\node_modules\\.2.3.1@egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\demo\\egg-react\\node_modules\\_egg-logrotator@2.2.3@egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "dir": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "dynamic": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "preload": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "buffer": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\github\\egg-react\\node_modules\\.1.4.1@egg-static\\config\\config.default.js"
+    "prefix": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js",
+    "dir": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js",
+    "dynamic": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js",
+    "preload": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js",
+    "buffer": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\demo\\egg-react\\node_modules\\_egg-static@1.4.1@egg-static\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\demo\\egg-react\\node_modules\\_egg-jsonp@1.2.1@egg-jsonp\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "cache": "F:\\github\\egg-react\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "E:\\demo\\egg-react\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "name": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "proxy": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "protocolHeaders": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "ipHeaders": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "hostHeaders": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+  "env": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "name": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "proxy": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "ipHeaders": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "hostHeaders": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
   "pkg": {
-    "name": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "version": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "description": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "main": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "name": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "version": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "description": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "main": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "scripts": {
-      "dev": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "server": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "dev_static": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "build": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "dev": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "server": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "dev_static": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "build": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "url": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "type": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "url": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
-    "keywords": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "author": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "license": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "keywords": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "author": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "license": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "bugs": {
-      "url": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "url": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
-    "homepage": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "homepage": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "dependencies": {
-      "antd-mobile": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "autoprefixer": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-core": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-plugin-react-transform": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-plugin-transform-class-properties": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-preset-es2015": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-preset-react": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "babel-preset-stage-0": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "classnames": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "css-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "egg": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "extract-text-webpack-plugin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "file-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "html-webpack-plugin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "json-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "node-sass": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "postcss-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-transform-hmr": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux-devtools": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux-devtools-dock-monitor": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux-devtools-log-monitor": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux-form": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "sass-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "style-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "webpack": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "webpack-dev-server": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "antd-mobile": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "autoprefixer": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-core": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-plugin-react-transform": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-plugin-transform-class-properties": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-preset-es2015": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-preset-react": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "babel-preset-stage-0": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "classnames": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "css-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "egg": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "egg-view-nunjucks": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "extract-text-webpack-plugin": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "file-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "html-webpack-plugin": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "json-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "node-sass": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "postcss-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-transform-hmr": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux-devtools": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux-devtools-dock-monitor": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux-devtools-log-monitor": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux-form": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "sass-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "style-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "webpack": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "webpack-dev-server": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "html-withimg-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "postcss-pxtorem": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "prop-types": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-dom": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-redux": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-router": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-router-dom": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "react-router-redux": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "redux-thunk": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "url-loader": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "webpack": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "webpack-merge": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "whatwg-fetch": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "chalk": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "egg-bin": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "extract-text-webpack-plugin": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "html-withimg-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "node-notifier": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "ora": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "postcss-pxtorem": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "prop-types": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-dom": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-router": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-router-dom": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "react-router-redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "redux-thunk": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "rimraf": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "semver": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "shelljs": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "url-loader": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "webpack": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "webpack-merge": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "whatwg-fetch": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "npm": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     }
   },
-  "baseDir": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "HOME": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "rundir": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+  "baseDir": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "HOME": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "rundir": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
   "dump": {
-    "ignore": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "ignore": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "notFound": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "sitefile": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "middlewares": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "httpClient": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "bodyparser": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "notFound": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "sitefile": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "middlewares": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "httpClient": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "pageUrl": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "/favicon.ico": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "encoding": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "formLimit": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "jsonLimit": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "strict": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "enable": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "encoding": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "formLimit": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "jsonLimit": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "strict": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "depth": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "parameterLimit": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "arrayLimit": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "depth": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "parameterLimit": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "encoding": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "env": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "level": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "consoleLevel": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "outputJSON": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "buffer": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "appLogName": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "coreLogName": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "agentLogName": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "errorLogName": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "dir": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "encoding": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "env": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "level": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "consoleLevel": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "outputJSON": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "buffer": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "appLogName": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "coreLogName": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "agentLogName": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "errorLogName": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.local.js"
+      "consoleLevel": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "allowDebugAtProd": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+    "enableDNSCache": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
     "request": {
-      "timeout": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "timeout": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "maxSockets": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "keepAlive": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "maxSockets": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "keepAlive": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-  "workerStartTimeout": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
+  "coreMiddleware": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "port": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js",
-      "hostname": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+      "path": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "port": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js",
+      "hostname": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "F:\\github\\egg-react\\node_modules\\.1.12.0@egg\\config\\config.default.js"
+    "responseTimeout": "E:\\demo\\egg-react\\node_modules\\_egg@1.10.0@egg\\config\\config.default.js"
   }
 }

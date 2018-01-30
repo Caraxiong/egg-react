@@ -7,7 +7,7 @@
     "dev": "npm run server & npm run dev_static",
     "server": "egg-bin dev",
     "dev_static": "webpack-dev-server --inline --hot --watch --progress --config ./static/build/webpack.dev.config.js",
-    "build": "webpack --config ./static/build/webpack.prod.config.js --progress"
+    "build": "node ./static/build/build.js"
   },
   "repository": {
     "type": "git",
@@ -51,8 +51,12 @@
     "webpack-dev-server": "^2.5.1"
   },
   "devDependencies": {
+    "chalk": "^2.3.0",
     "egg-bin": "^4.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "html-withimg-loader": "^0.1.16",
+    "node-notifier": "^5.2.1",
+    "ora": "^1.3.0",
     "postcss-pxtorem": "^4.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
@@ -63,9 +67,16 @@
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-merge": "^4.1.1",
     "whatwg-fetch": "^2.0.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
   }
 }
