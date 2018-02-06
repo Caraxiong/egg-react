@@ -1,8 +1,8 @@
 import React, {
 	PropTypes
 } from 'react'
-import Footer from '../../components/footer/Footer'
-import City from '../../components/city/CityContainer'
+import Footer from '../../taopiaopiao/footer/Footer'
+import City from '../../taopiaopiao/city/CityContainer'
 
 
 const CoreLayout = ({

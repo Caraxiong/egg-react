@@ -9,7 +9,7 @@ import {
 import Login from '../views/Account/Login'
 import Register from '../views/Account/Register'
 import CoreLayout from '../layouts/coreLayout/CoreLayout'
-import PageNoFound from '../components/error/404/PageNoFound'
+import PageNoFound from '../taopiaopiao/error/404/PageNoFound'
 
 const routes = (
     <BrowserRouter>
