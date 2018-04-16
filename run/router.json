@@ -20,7 +20,7 @@
     "path": "/movie/cinema/:cityStr",
     "regexp": "/^\\/movie\\/cinema\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
-      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getList()"
+      "E:\\demo\\egg-react\\app\\controller\\list\\list.js#ListController.getList()"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "path": "/cinema/detail/:id",
     "regexp": "/^\\/cinema\\/detail\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
-      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getDetail()"
+      "E:\\demo\\egg-react\\app\\controller\\list\\list.js#ListController.getDetail()"
     ]
   },
   {
@@ -57,7 +57,7 @@
     "path": "/movie/cinema_detail",
     "regexp": "/^\\/movie\\/cinema_detail(?:\\/(?=$))?$/",
     "stack": [
-      "F:\\github\\egg-react\\app\\controller\\list\\list.js#ListController.getMovieDetail()"
+      "E:\\demo\\egg-react\\app\\controller\\list\\list.js#ListController.getMovieDetail()"
     ]
   },
   {
@@ -70,7 +70,7 @@
     "path": "/movie/swiper",
     "regexp": "/^\\/movie\\/swiper(?:\\/(?=$))?$/",
     "stack": [
-      "F:\\github\\egg-react\\app\\controller\\home\\home.js#HomeController.getImgs()"
+      "E:\\demo\\egg-react\\app\\controller\\home\\home.js#HomeController.getImgs()"
     ]
   }
 ]
